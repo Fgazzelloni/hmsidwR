@@ -1,4 +1,5 @@
 ## Create a package
+## R-Packages - https://r-pkgs.org/
 ## check the package's name availability
 library(available)
 available::available("hmsidwR")
@@ -45,4 +46,29 @@ devtools::build_readme()
 
 
 ## Data
+## Raw data
+usethis::use_data_raw() # create the data_raw/ folder
+usethis::use_data_raw("my_pkg_data")
+
+## Data is saved in data/ folder and is usually type .rda
+usethis::use_data()
+usethis::use_data(my_pkg_data)
+# to compress
+tools::resaveRdaFiles("data/")
+# to check what type of
+tools::checkRdaFiles()
+
+## Internal data
+usethis::use_data(internal = TRUE) # create R/sysdata.rda
+usethis::use_data(internal_this, internal_that, internal = TRUE)
+
+
+## load packages on DESCRPTION
+usethis::use_package("your-package")
+# in suggest are packages not absolutely required
+# reorder list
+usethis::use_tidy_description()
+
+
+
 

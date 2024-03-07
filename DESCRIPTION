@@ -4,15 +4,28 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Federica", "Gazzelloni", , "fede.gazzelloni@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-4285-611"))
-Description: This package provides data sets and function used in the Health Metrics and the Spread of Infectious Diseases with R book from CRC Press.
+Description: This package provides data sets and author's functions used
+    in the Health Metrics and the Spread of Infectious Diseases with R
+    book from CRC Press.
 License: MIT + file LICENSE
-Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
-Suggests: 
-    testthat (>= 3.0.0)
-Config/testthat/edition: 3
-Imports: 
-    stats
 URL: https://github.com/Fgazzelloni/hmsidwR
 BugReports: https://github.com/Fgazzelloni/hmsidwR/issues
+Depends: 
+    R (>= 2.10)
+Imports: 
+    dplyr,
+    ggplot2,
+    tidyr
+Suggests: 
+    devtools,
+    httr,
+    lubridate,
+    readr,
+    readxl,
+    stats,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3

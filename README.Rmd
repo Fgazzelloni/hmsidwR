@@ -34,9 +34,29 @@ devtools::install_github("Fgazzelloni/hmsidwR")
 
 This is a basic example which shows you how to solve a common problem:
 
-```{r example}
+```{r load data}
 library(hmsidwR)
-## basic example code
+library(dplyr)
+data(sdi90_19)
+head(subset(sdi90_19,location=="Global"))
 ```
 
+
+
+```{r example1}
+sdi_avg <- sdi90_19|>
+  group_by(location)|>
+  reframe(sdi_avg=round(mean(value),3))
+
+head(sdi_avg)
+```
+
+
+```{r example2}
+sdi90_19 |>
+  filter(location%in%c("Global","Italy","France","Germany"))|>
+  group_by(location)|>
+  reframe(sdi_avg=round(mean(value),3))|>
+  head()
+```
 
