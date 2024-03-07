@@ -3,6 +3,9 @@
 ## check the package's name availability
 library(available)
 available::available("hmsidwR")
+suggest(text = "health metrics") # diseasesr
+pak::pkg_name_check("hmsidwR")
+
 
 library(devtools)
 library(usethis)
@@ -30,18 +33,22 @@ devtools::document()
 devtools::install()
 
 ## install testthat to check functions
-usethis::use_testthat()
+# usethis::use_testthat()
 # then fill up the test_that() function with expected output
 devtools::test()
 
 ## use github
-usethis::use_github()
+# usethis::use_github()
+## use RStudio - this function set all files on the main directory of the prject
+usethis::use_rstudio()
+usethis::proj_sitrep() # check
+
 
 ## add a readme
-usethis::use_readme_rmd()
+# usethis::use_readme_rmd()
 
 ## build the readme
-devtools::build_readme()
+# devtools::build_readme()
 ## then check and install
 
 
@@ -69,6 +76,30 @@ usethis::use_package("your-package")
 # reorder list
 usethis::use_tidy_description()
 
+## add a Vignette
+usethis::use_vignette("hmsidwR")
+# then subsequent vignettes
+usethis::use_vignette("sdi90_19")
+usethis::use_article("Case Study") # .Rbuildignored
 
+# or
+devtools::install(build_vignettes = TRUE)
+browseVignettes("hmsidwR")
+
+
+# Repeate
+devtools::document()
+devtools::load_all()
+devtools::check()
+devtools::install()
+devtools::build()
+
+
+
+
+
+
+## Submitt on CRAN
+# devtools::submit_cran()
 
 
