@@ -1,0 +1,12 @@
+pandoc: 3.1.11
+pkgdown: 2.0.7
+pkgdown_sha: ~
+articles:
+  Case-Study-sdi90_19: Case-Study-sdi90_19.html
+  Case-Study: Case-Study.html
+  hmsidwR: hmsidwR.html
+last_built: 2024-03-14T17:16Z
+urls:
+  reference: https://fgazzelloni.github.io/hmsidwR/reference
+  article: https://fgazzelloni.github.io/hmsidwR/articles
+
