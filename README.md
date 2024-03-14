@@ -1,9 +1,13 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# hmsidwR - Health Metrics and the Spread of Infectious Diseases with R
+# hmsidwR - Health Metrics and the Spread of Infectious Diseases with R <a href='https://fgazzelloni.github.io/hmsidwR/'><img src='man/figures/logo.png' align="right" width="25%" min-width="120px" /></a>
 
 <!-- badges: start -->
+
+[![DOI](https://zenodo.org/badge/768163778.svg)](https://zenodo.org/badge/latestdoi/768163778)
+
+
 <!-- badges: end -->
 
 The goal of `{hmsidwR}` is to provide the set of data used in the
