@@ -22,6 +22,10 @@ A dataframe containing the vector with the estimation, and the original data
 lmforecast function
 }
 \examples{
-x=rnorm(n = 50,mean = 0,sd = 1)
-lmforecast(x=x, a=0.1, m=dunif(x,min = 0.02,max = 1),e=rnorm(length(x),mean = 0,sd = 1))
+x <- rnorm(n = 50, mean = 0, sd = 1)
+lmforecast(
+x = x,
+a = 0.1,
+m = dunif(x, min = 0.02, max = 1),
+e = rnorm(length(x), mean = 0, sd = 1))
 }

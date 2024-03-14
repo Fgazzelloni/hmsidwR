@@ -9,14 +9,14 @@
 #' @export
 #'
 #' @examples
-#' x=rnorm(n = 50,mean = 0,sd = 1)
-#' lmforecast(x=x, a=0.1, m=dunif(x,min = 0.02,max = 1),e=rnorm(length(x),mean = 0,sd = 1))
-
-lmforecast <- function(x,a,m,e) {
+#' x <- rnorm(n = 50, mean = 0, sd = 1)
+#' lmforecast(
+#' x = x,
+#' a = 0.1,
+#' m = dunif(x, min = 0.02, max = 1),
+#' e = rnorm(length(x), mean = 0, sd = 1))
+lmforecast <- function(x, a, m, e) {
   stopifnot(is.numeric(x), length(x) >= 1)
-  pred= a+m*x+e
-  data.frame(pred,x,error=e)
+  pred <- a + m * x + e
+  data.frame(pred, x, error = e)
 }
-
-
-

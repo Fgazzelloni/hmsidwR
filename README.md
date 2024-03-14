@@ -1,13 +1,10 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
-# hmsidwR - Health Metrics and the Spread of Infectious Diseases with R <a href='https://fgazzelloni.github.io/hmsidwR/'><img src='man/figures/logo.png' align="right" width="25%" min-width="120px" /></a>
+# hmsidwR - Health Metrics and the Spread of Infectious Diseases with R
 
 <!-- badges: start -->
 
 [![DOI](https://zenodo.org/badge/768163778.svg)](https://zenodo.org/badge/latestdoi/768163778)
-
-
+[![R-CMD-check](https://github.com/Fgazzelloni/hmsidwR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Fgazzelloni/hmsidwR/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of `{hmsidwR}` is to provide the set of data used in the
@@ -40,7 +37,7 @@ library(dplyr)
 #> 
 #>     intersect, setdiff, setequal, union
 data(sdi90_19)
-head(subset(sdi90_19,location=="Global"))
+head(subset(sdi90_19, location == "Global"))
 #> # A tibble: 6 × 3
 #>   location  year value
 #>   <chr>    <dbl> <dbl>
@@ -53,9 +50,9 @@ head(subset(sdi90_19,location=="Global"))
 ```
 
 ``` r
-sdi_avg <- sdi90_19|>
-  group_by(location)|>
-  reframe(sdi_avg=round(mean(value),3))
+sdi_avg <- sdi90_19 |>
+  group_by(location) |>
+  reframe(sdi_avg = round(mean(value), 3))
 
 head(sdi_avg)
 #> # A tibble: 6 × 2
@@ -71,9 +68,9 @@ head(sdi_avg)
 
 ``` r
 sdi90_19 |>
-  filter(location%in%c("Global","Italy","France","Germany"))|>
-  group_by(location)|>
-  reframe(sdi_avg=round(mean(value),3))|>
+  filter(location %in% c("Global", "Italy", "France", "Germany")) |>
+  group_by(location) |>
+  reframe(sdi_avg = round(mean(value), 3)) |>
   head()
 #> # A tibble: 4 × 2
 #>   location sdi_avg

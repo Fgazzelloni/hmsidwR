@@ -1,31 +1,39 @@
 Package: hmsidwR
-Title: What the Package Does (One Line, Title Case)
+Title: Collection of data and function used in the Health Metrics and the Spread of Infectious Diseases with R
+    book
 Version: 0.0.0.9000
 Authors@R: 
     person("Federica", "Gazzelloni", , "fede.gazzelloni@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-4285-611"))
 Description: This package provides data sets and author's functions used
     in the Health Metrics and the Spread of Infectious Diseases with R
-    book from CRC Press.
+    book from CRC Press. The book provides the tools for calculating the DALYs (YLLs+YLDs), and other important health metrics.
+    It also shows the R code for modeling infectious diseases with machine learning. Finally,
+    allows the user to understand how to visualize the results and making maps.
 License: MIT + file LICENSE
-URL: https://github.com/Fgazzelloni/hmsidwR
+URL: https://github.com/Fgazzelloni/hmsidwR, https://fgazzelloni.github.io/hmsidwR/
 BugReports: https://github.com/Fgazzelloni/hmsidwR/issues
 Depends: 
     R (>= 2.10)
 Imports: 
-    dplyr,
     ggplot2,
-    tidyr
+    purrr
 Suggests: 
     devtools,
+    dplyr,
     httr,
     knitr,
     lubridate,
+    pkgdown,
     readr,
     readxl,
     rmarkdown,
+    sessioninfo,
+    showtext,
     stats,
-    testthat (>= 3.0.0)
+    sysfonts,
+    testthat (>= 3.0.0),
+    tidyr
 Config/testthat/edition: 3
 Encoding: UTF-8
 LazyData: true

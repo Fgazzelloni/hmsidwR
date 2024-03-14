@@ -2,7 +2,7 @@
 output: github_document
 ---
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
@@ -11,11 +11,15 @@ knitr::opts_chunk$set(
   fig.path = "man/figures/README-",
   out.width = "100%"
 )
+
+options(rmarkdown.html_vignette.check_title = FALSE)
 ```
 
 # hmsidwR - Health Metrics and the Spread of Infectious Diseases with R
 
 <!-- badges: start -->
+[![DOI](https://zenodo.org/badge/768163778.svg)](https://zenodo.org/badge/latestdoi/768163778)
+[![R-CMD-check](https://github.com/Fgazzelloni/hmsidwR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Fgazzelloni/hmsidwR/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of `{hmsidwR}` is to provide the set of data used in the **Health Metrics and the Spread of Infectious Diseases
@@ -38,15 +42,15 @@ This is a basic example which shows you how to solve a common problem:
 library(hmsidwR)
 library(dplyr)
 data(sdi90_19)
-head(subset(sdi90_19,location=="Global"))
+head(subset(sdi90_19, location == "Global"))
 ```
 
 
 
 ```{r example1}
-sdi_avg <- sdi90_19|>
-  group_by(location)|>
-  reframe(sdi_avg=round(mean(value),3))
+sdi_avg <- sdi90_19 |>
+  group_by(location) |>
+  reframe(sdi_avg = round(mean(value), 3))
 
 head(sdi_avg)
 ```
@@ -54,9 +58,9 @@ head(sdi_avg)
 
 ```{r example2}
 sdi90_19 |>
-  filter(location%in%c("Global","Italy","France","Germany"))|>
-  group_by(location)|>
-  reframe(sdi_avg=round(mean(value),3))|>
+  filter(location %in% c("Global", "Italy", "France", "Germany")) |>
+  group_by(location) |>
+  reframe(sdi_avg = round(mean(value), 3)) |>
   head()
 ```
 

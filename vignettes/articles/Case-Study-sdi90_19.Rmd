@@ -1,0 +1,14 @@
+---
+title: "Case Study: SDI 1990 - 2019"
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(hmsidwR)
+```
