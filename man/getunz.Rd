@@ -4,14 +4,15 @@
 \alias{getunz}
 \title{Title}
 \usage{
-getunz(zipfile)
+getunz(url)
 }
 \arguments{
-\item{zipfile}{A url string, or a .zip file stored locally.}
+\item{url}{A url string for a .zip file.}
 }
 \value{
 A dataframe object from a zipped file.
-The function create a temp directory, unzip the file, list the available
+The function read the url, create a temp directory,
+unzip the file, list the available
 csv files in it and read them.
 }
 \description{
@@ -19,6 +20,6 @@ Title
 }
 \examples{
 \dontrun{
-getunz("data.zip")
+getunz("url")
 }
 }

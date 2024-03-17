@@ -1,18 +1,19 @@
 # download, unzip and read data
 #' Title
 #'
-#' @param zipfile A url string, or a .zip file stored locally.
+#' @param url A url string for a .zip file.
 #'
 #' @return A dataframe object from a zipped file.
-#' The function create a temp directory, unzip the file, list the available
+#' The function read the url, create a temp directory,
+#' unzip the file, list the available
 #' csv files in it and read them.
 #' @export
 #'
 #' @examples
 #' \dontrun{
-#' getunz("data.zip")
+#' getunz("url")
 #' }
-getunz <- function(zipfile) {
+getunz <- function(url) {
   url <- url
   temp_dir <- tempdir()
   zip_file <- file.path(temp_dir, "data.zip")
