@@ -22,6 +22,7 @@ Suggests:
     devtools,
     dplyr,
     httr,
+    janitor,
     knitr,
     lubridate,
     pkgdown,

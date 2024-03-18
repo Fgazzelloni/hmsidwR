@@ -5,9 +5,10 @@
 \alias{rabies}
 \title{Health Data from the Institute of Health Metrics and Evaluations (IHME)}
 \format{
-\subsection{\code{rabies}}{
+A dataframe with 240 rows and 7 variables:
 
-A data frame with 240 rows and 7 columns:
+The variables are as follows:
+
 \describe{
 \item{measure}{character, metric name}
 \item{location}{character, country}
@@ -16,12 +17,10 @@ A data frame with 240 rows and 7 columns:
 \item{val}{numeric, estimated values}
 \item{upper}{numeric, estimated upper values}
 \item{lower}{numeric, estimated lower values}
-...
-}
 }
 }
 \source{
-<healthdata.org>
+\url{https://www.healthdata.org/}
 }
 \usage{
 rabies

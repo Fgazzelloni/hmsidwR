@@ -4,8 +4,10 @@
 #' it also provides the DALYs estimated values.
 #' Locations available are Global and Asia.
 #'
-#' @format ## `rabies`
-#' A data frame with 240 rows and 7 columns:
+#' @format A dataframe with `r dim(rabies)[1]` rows and `r dim(rabies)[2]` variables:
+#'
+#' The variables are as follows:
+#'
 #' \describe{
 #'   \item{measure}{character, metric name}
 #'   \item{location}{character, country}
@@ -14,7 +16,6 @@
 #'   \item{val}{numeric, estimated values}
 #'   \item{upper}{numeric, estimated upper values}
 #'   \item{lower}{numeric, estimated lower values}
-#'   ...
 #' }
-#' @source <healthdata.org>
+#' @source <https://www.healthdata.org/>
 "rabies"

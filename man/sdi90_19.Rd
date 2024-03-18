@@ -3,17 +3,16 @@
 \docType{data}
 \name{sdi90_19}
 \alias{sdi90_19}
-\title{Socio-Demographic Index (SDI)}
+\title{Socio-Demographic Index (SDI) for 1990 and 2019}
 \format{
-\subsection{\code{sdi90_19}}{
+A dataframe with 20010 rows and 3 variables:
 
-A data frame with 20010 rows and 3 columns:
+The variables are as follows:
+
 \describe{
 \item{location}{character, country}
 \item{year}{integer, year}
 \item{val}{numeric, estimated values}
-...
-}
 }
 }
 \source{

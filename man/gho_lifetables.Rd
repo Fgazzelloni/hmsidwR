@@ -7,20 +7,20 @@
 \format{
 A dataframe with 1995 rows and 5 variables:
 
-Variables:
+The variables are as follows:
 
 \describe{
-\item{indicator}{Tx - person-years lived above age x,\if{html}{\out{<br>}}
+\item{indicator}{character, Tx - person-years lived above age x,\if{html}{\out{<br>}}
 ex - expectation of life at age x,\if{html}{\out{<br>}}
 lx - number of people left alive at age x,\if{html}{\out{<br>}}
 nLx - person-years lived between ages x and x+n,\if{html}{\out{<br>}}
 nMx - age-specific death rate between ages x and x+n,\if{html}{\out{<br>}}
 ndx - number of people dying between ages x and x+n,\if{html}{\out{<br>}}
 nqx - probability of dying between ages x and x+n}
-\item{year}{from 2000 to 2019}
-\item{age}{from <1 to 85+ each 5 years}
-\item{sex}{both, male, female}
-\item{value}{value of the tables}
+\item{year}{numeric, from 2000 to 2019}
+\item{age}{character, from <1 to 85+ each 5 years}
+\item{sex}{character, both, male, female}
+\item{value}{numeric, value of the tables}
 }
 }
 \source{
@@ -30,7 +30,6 @@ nqx - probability of dying between ages x and x+n}
 gho_lifetables
 }
 \description{
-A dataset containing the Global region life tables from 2000 to 2019
-The variables are as follows:
+A dataset containing the Global region life tables from 2000 to 2019.
 }
 \keyword{datasets}
