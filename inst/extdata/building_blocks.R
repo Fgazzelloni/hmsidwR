@@ -145,7 +145,7 @@ pkgdown::build_site()
 vignette("pkgdown", package = "pkgdown")
 
 # add the RCheck badge and select (1)
-usethis::use_github_action()
+# usethis::use_github_action()
 
 # add NEWs
 usethis::use_news_md()
