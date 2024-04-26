@@ -13,4 +13,5 @@ rabies <- dat %>%
          lower=round(lower,3))
 
 
-usethis::use_data(rabies, overwrite = TRUE)
+usethis::use_data(rabies, overwrite = F)
+devtools::document()

@@ -1,11 +1,11 @@
 #' Health Data from the Institute of Health Metrics and Evaluations (IHME)
 #'
-#' A subset of data from the IHME GBD on Deaths, DALYs, YLLs, YLDs, Incidence and Prevalence, age standardized all Causes and level 2 causes.
-#' For years 2010 and 2019.
+#' A subset of data from the IHME GBD on Incidence and Prevalence for CVD and Stroke
+#' in 2019.
 #'
 #' Locations available are Global, Canada, France, Germany, Italy, Japan, UK, and US.
 #'
-#' @format A dataframe with `r dim(g7_hmetrics)[1]` rows and `r dim(g7_hmetrics)[2]` variables:
+#' @format A dataframe with `r dim(g7_inc_prev_CVD2019)[1]` rows and `r dim(g7_inc_prev_CVD2019)[2]` variables:
 #'
 #' The variables are as follows:
 #'
@@ -13,11 +13,11 @@
 #'   \item{measure}{character, metric name}
 #'   \item{location}{character, country}
 #'   \item{sex}{character, Female, Male, Both}
-#'   \item{cause}{character, all causes, level 2 causes}
-#'   \item{year}{integer, year}
+#'   \item{age}{character, age groups from 01 to 85+ each 5 years}
+#'   \item{cause}{character, CVD and Stroke}
 #'   \item{val}{numeric, estimated values}
 #'   \item{upper}{numeric, estimated upper values}
 #'   \item{lower}{numeric, estimated lower values}
 #' }
 #' @source <https://vizhub.healthdata.org/gbd-results/>
-"g7_hmetrics"
+"g7_inc_prev_CVD2019"

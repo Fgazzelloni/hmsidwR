@@ -14,4 +14,9 @@ g7_hmetrics <- dat %>%
                              .default = measure)) %>%
     select(-age)
 
-usethis::use_data(g7_hmetrics, overwrite = TRUE)
+g7_hmetrics <- g7_hmetrics %>%
+  mutate(sex=tolower(sex))
+
+
+usethis::use_data(g7_hmetrics, overwrite = F)
+devtools::document()

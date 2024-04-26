@@ -25,4 +25,5 @@ sdi90_19 <- df |>
 #   filter(location%in%c("Global","Italy","France","Germany"))
 
 
-usethis::use_data(sdi90_19, overwrite = TRUE)
+usethis::use_data(sdi90_19, overwrite = F)
+devtools::document()

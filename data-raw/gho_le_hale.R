@@ -5,9 +5,11 @@ data <- read_csv("https://apps.who.int/gho/athena/data/data-verbose.csv?target=G
 
 gho_le_hale <- data%>%
   janitor::clean_names()%>%
-  select(matches("_display|display_"),-publishstate_display)%>%
+  select(matches("_display|display_"),
+         -publishstate_display)%>%
   rename_with(~gsub("_display|display_","",.x))%>%
-  rename(indicator=gho)
+  rename(indicator=gho)%>%
+  mutate(sex=tolower(sex))
 
 usethis::use_data(gho_le_hale, overwrite = TRUE)
 devtools::document()
