@@ -19,5 +19,5 @@
 #' \item{lower}{numeric, lower value estimation}
 #' }
 #'
-#' @source {2019 data from the [IHME](https://vizhub.healthdata.org/gbd-results/) website}
+#' @source {Global Burden of Disease Collaborative Network. Global Burden of Disease Study 2019 (GBD 2019) Disability Weights. Seattle, United States of America: Institute for Health Metrics and Evaluation (IHME), 2020. DOI  https://doi.org/10.6069/1W19-VX76}
 "disweights2019"
