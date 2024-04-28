@@ -5,16 +5,19 @@
 \alias{germany_lungc}
 \title{Germany lungcancer deaths 2019}
 \format{
-A dataframe with 48 rows and 5 variables:
+A dataframe with 48 rows and 8 variables:
 
 The variables are as follows:
 
 \describe{
-\item{sex}{character, both, male, female}
 \item{age}{character, age groups from 10-14 to 85+ each 5 years}
-\item{val}{numeric, deaths number estimation due to lungcancer}
-\item{upper}{numeric, upper value estimation}
-\item{lower}{numeric, lower value estimation}
+\item{sex}{character, both, male, female}
+\item{prevalence}{numeric, prevalence rate estimation due to lungcancer}
+\item{prev_upper}{numeric, upper value estimation}
+\item{prev_lower}{numeric, lower value estimation}
+\item{dx}{numeric, deaths rate estimation due to lungcancer}
+\item{dx_upper}{numeric, upper value estimation}
+\item{dx_lower}{numeric, lower value estimation}
 }
 }
 \source{
