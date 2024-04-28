@@ -8,12 +8,14 @@
 #' The variables are as follows:
 #'
 #' \describe{
+#' \item{sequela}{character, disease sequela}
 #' \item{specification}{character, diesase specification}
-#' \item{cause1}{character, first cause of disease}
-#' \item{cause2}{character, second cause of disease}
+#' \item{cause1}{character, first cause of disease - morbidity}
+#' \item{cause2}{character, second cause of disease - morbidity}
 #' \item{severity}{character, mild,
 #'                            moderate,
-#'                            severe}
+#'                            severe,
+#'                            combined}
 #' \item{disability_weight}{numeric, disability weight estimation}
 #' \item{upper}{numeric, upper value estimation}
 #' \item{lower}{numeric, lower value estimation}

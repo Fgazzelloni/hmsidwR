@@ -140,7 +140,8 @@ devtools::install()
 devtools::build()
 pkgdown::build_site()
 
-
+# install(build_vignettes = TRUE)
+# browseVignettes("hmsidwR")
 # customization documentation
 vignette("pkgdown", package = "pkgdown")
 
