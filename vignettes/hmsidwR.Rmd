@@ -11,12 +11,66 @@ vignette: >
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
-  comment = "#>"
+  comment = "#>",
+  message = FALSE,
+  warning = FALSE
 )
 
 options(rmarkdown.html_vignette.check_title = FALSE)
 ```
 
-```{r setup}
+## Setup
+```{r eval=FALSE}
+# install.packages("devtools")
+devtools::install_github("Fgazzelloni/hmsidwR")
+```
+
+
+```{r}
 library(hmsidwR)
 ```
+
+
+This package provides the set of data used in the **Health Metrics and the Spread of Infectious Diseases Machine Learning Applications and Spatial Modeling Analysis with R** book.
+
+## Load Sample Data
+
+```{r}
+hmsidwR::sdi90_19 |>
+  head()
+```
+
+
+```{r}
+hmsidwR::deaths2019 |>
+  head()
+```
+
+## Make a Plot
+
+```{r}
+library(tidyverse)
+id <- hmsidwR::id_affected_countries %>%
+  ggplot(aes(x=year,
+           group=location_name))+
+  geom_line(aes(y=YLLs),
+            linewidth=0.2,
+            color="grey")+
+  geom_line(data= id_affected_countries %>%
+              filter(location_name %in% c("Lesotho",
+                                          "Eswatini",
+                                          "Malawi",
+                                          "Central African Republic",
+                                          "Zambia")),
+            aes(y=YLLs,color=location_name))+
+  theme_minimal()+
+  theme(legend.position = "none")+
+  labs(title="Countries with highest AVG YLLs",
+  subtitle="due to infectious diseases from 1990 to 2021",
+  caption="DataSource: IHME GBD Results for infectious diseases deaths and YLLs 1980 to 1999",
+  x="Year",y="DALYs")
+# add a plotly version
+library(plotly)
+plotly::ggplotly(id)
+```
+

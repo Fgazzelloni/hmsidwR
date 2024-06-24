@@ -2,7 +2,7 @@
 % Please edit documentation in R/getunz.R
 \name{getunz}
 \alias{getunz}
-\title{Title}
+\title{Download, Unzip and Read Data: getunz}
 \usage{
 getunz(url)
 }
@@ -16,7 +16,7 @@ unzip the file, list the available
 csv files in it and read them.
 }
 \description{
-Title
+Download, Unzip and Read Data: getunz
 }
 \examples{
 \dontrun{

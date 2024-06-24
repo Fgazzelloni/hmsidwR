@@ -59,7 +59,7 @@ id <- ggplot(id_affected_countries,
   geom_line(aes(y=YLLs),
             linewidth=0.2,
             color="grey")+
-  geom_line(data= data %>%
+  geom_line(data= id_affected_countries %>%
               filter(location_name %in% c("Lesotho",
                                           "Eswatini",
                                           "Malawi",

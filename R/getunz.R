@@ -1,5 +1,4 @@
-# download, unzip and read data
-#' Title
+#' Download, Unzip and Read Data: getunz
 #'
 #' @param url A url string for a .zip file.
 #'
