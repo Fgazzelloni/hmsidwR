@@ -34,12 +34,14 @@ Custom ggplot2 theme function
 \examples{
 \dontrun{
 library(ggplot2)
-dat <- data.frame(x=seq_along(1:5),
-                  y=rnorm(n = 5,mean = 0.5,sd = 1))
+dat <- data.frame(
+  x = seq_along(1:5),
+  y = rnorm(n = 5, mean = 0.5, sd = 1)
+)
 dat |>
-ggplot(aes(x=x,y=y))+
-geom_line()+
-theme_hmsid()
+  ggplot(aes(x = x, y = y)) +
+  geom_line() +
+  theme_hmsid()
 }
 
 }

@@ -21,22 +21,28 @@ head(sdi90_19)
 
 ```{r}
 sdi_avg <- sdi90_19 |>
-  group_by(year,location) |>
+  group_by(year, location) |>
   reframe(sdi_avg = round(mean(value), 3))
 ```
 
 
 ```{r}
 sdi_avg |>
-  ggplot(aes(x=year, sdi_avg,group = location))+
-  geom_line(show.legend = F,
-            color="grey",
-            linewidth=0.1)+
-  geomtextpath::geom_textpath(data= sdi_avg |>
-                                filter(location=="Global"),
-                              aes(label=location),
-                              color="red")+
-  ggtitle("Socio-Demographic Index (SDI) 1990 - 2019")+
-  labs(caption="DataSource: healthdata.org",
-       x="Year",y="SDI")
+  ggplot(aes(x = year, sdi_avg, group = location)) +
+  geom_line(
+    show.legend = F,
+    color = "grey",
+    linewidth = 0.1
+  ) +
+  geomtextpath::geom_textpath(
+    data = sdi_avg |>
+      filter(location == "Global"),
+    aes(label = location),
+    color = "red"
+  ) +
+  ggtitle("Socio-Demographic Index (SDI) 1990 - 2019") +
+  labs(
+    caption = "DataSource: healthdata.org",
+    x = "Year", y = "SDI"
+  )
 ```

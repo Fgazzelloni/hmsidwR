@@ -25,14 +25,18 @@ The `map_data("world")` data is used to show the transformation of the spatial i
 library(tidyverse)
 library(sf)
 world_map <- map_data("world") %>%
-  filter(!region=="Antarctica")%>%
-  st_as_sf(coords = c("long", "lat"),
-           crs = 4326,
-           agr = "constant") %>%
+  filter(!region == "Antarctica") %>%
+  st_as_sf(
+    coords = c("long", "lat"),
+    crs = 4326,
+    agr = "constant"
+  ) %>%
   st_cast("POINT") %>%
   group_by(group) %>%
-  summarise(geometry = st_combine(geometry),
-            do_union = F) %>%
+  summarise(
+    geometry = st_combine(geometry),
+    do_union = F
+  ) %>%
   st_cast("POLYGON")
 ```
 
@@ -40,14 +44,20 @@ world_map <- map_data("world") %>%
 ```{r}
 world_map %>%
   ggplot() +
-  geom_sf()+
-  geom_sf(data = idDALY_map_data,
-          aes(fill=DALYs))+
-  labs(title="Infectious Diseases World Map",
-       caption="Average DALYs per country 1990-2021\nDataSource: IHME Data & ggplot2::map_data")+
-  scale_fill_viridis_c()+
-  ggthemes::theme_map()+
-  theme(plot.title = element_text(hjust = 0.5),
-        plot.caption = element_text(hjust = 0.5))
+  geom_sf() +
+  geom_sf(
+    data = idDALY_map_data,
+    aes(fill = DALYs)
+  ) +
+  labs(
+    title = "Infectious Diseases World Map",
+    caption = "Average DALYs per country 1990-2021\nDataSource: IHME Data & ggplot2::map_data"
+  ) +
+  scale_fill_viridis_c() +
+  ggthemes::theme_map() +
+  theme(
+    plot.title = element_text(hjust = 0.5),
+    plot.caption = element_text(hjust = 0.5)
+  )
 ```
 

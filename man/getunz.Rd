@@ -11,15 +11,19 @@ getunz(url)
 }
 \value{
 A dataframe object from a zipped file.
-The function read the url, create a temp directory,
-unzip the file, list the available
-csv files in it and read them.
+The function takes the url, creates a temp directory,
+unzip the file, lists the available csv files, if more than one and reads them.
+
+Select a dataset from the IHME GBD results and download it.
+You will receive an email with a url.
+Use the url to download the data.
 }
 \description{
 Download, Unzip and Read Data: getunz
 }
 \examples{
+\dontrun{
 url <- "https://www.healthdata.org/.../some-file.zip"
-getunz("url")
-
+getunz(url)
+}
 }
