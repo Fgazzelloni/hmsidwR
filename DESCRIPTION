@@ -14,7 +14,8 @@ License: MIT + file LICENSE
 URL: https://github.com/Fgazzelloni/hmsidwR, https://fgazzelloni.github.io/hmsidwR/
 BugReports: https://github.com/Fgazzelloni/hmsidwR/issues
 Depends: 
-    R (>= 2.10)
+    R (>= 2.10),
+    tidyverse
 Imports: 
     ggplot2,
     purrr
