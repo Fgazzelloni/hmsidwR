@@ -14,25 +14,25 @@ License: MIT + file LICENSE
 URL: https://github.com/Fgazzelloni/hmsidwR, https://fgazzelloni.github.io/hmsidwR/
 BugReports: https://github.com/Fgazzelloni/hmsidwR/issues
 Depends: 
-    R (>= 2.10),
-    tidyverse
+    R (>= 2.10)
 Imports: 
-    dplyr,
     ggplot2,
-    plotly,
-    purrr,
-    sf
+    purrr
 Suggests: 
     devtools,
+    dplyr,
     httr,
     janitor,
     knitr,
     lubridate,
+    maps,
     pkgdown,
+    plotly,
     readr,
     readxl,
     rmarkdown,
     sessioninfo,
+    sf,
     stats,
     testthat (>= 3.0.0),
     tidyr
