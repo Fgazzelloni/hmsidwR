@@ -23,6 +23,7 @@ Imports:
 Suggests: 
     devtools,
     dplyr,
+    geomtextpath,
     httr,
     janitor,
     knitr,
