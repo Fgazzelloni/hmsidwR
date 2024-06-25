@@ -27,14 +27,7 @@ This is a basic example which shows you how to solve a common problem:
 ``` r
 library(hmsidwR)
 library(dplyr)
-#> 
-#> Attaching package: 'dplyr'
-#> The following objects are masked from 'package:stats':
-#> 
-#>     filter, lag
-#> The following objects are masked from 'package:base':
-#> 
-#>     intersect, setdiff, setequal, union
+
 data(sdi90_19)
 head(subset(sdi90_19, location == "Global"))
 #> # A tibble: 6 × 3
