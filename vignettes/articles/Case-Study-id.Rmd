@@ -21,7 +21,7 @@ data(idDALY_map_data)
 ```
 
 The `map_data("world")` data is used to show the transformation of the spatial information expressed in long and lat to a simple feature object. This layer is added for showing the missing countries that are not considered in the dataset.
-```{r}
+```{r message=FALSE, warning=FALSE}
 library(tidyverse)
 library(sf)
 world_map <- map_data("world") %>%
