@@ -16,6 +16,16 @@ The variables are as follows:
 \item{DALYs}{double, Average DALYs per 100,000 population from 1990 to 2021}
 \item{geometry}{POLYGON}
 }
+
+#' @examples
+ggplot(data = idDALY_map_data) +
+geom_sf(aes(fill=DALYs))+
+labs(title="Infectious Diseases World Map",
+caption="Average DALYs per country 1990-2021\n DataSource: IHME Data & ggplot2::map_data")+
+scale_fill_viridis_c()+
+ggthemes::theme_map()+
+theme(plot.title = element_text(hjust = 0.5),
+plot.caption = element_text(hjust = 0.5))
 }
 \source{
 {2021 data from the \href{https://vizhub.healthdata.org/gbd-results/}{IHME} website}
