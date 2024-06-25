@@ -18,6 +18,7 @@ Depends:
     tidyverse
 Imports: 
     ggplot2,
+    ggthemes,
     purrr
 Suggests: 
     devtools,
