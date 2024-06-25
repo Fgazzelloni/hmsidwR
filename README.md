@@ -1,5 +1,5 @@
 
-# hmsidwR - Health Metrics and the Spread of Infectious Diseases with R
+# hmsidwR - Health Metrics and the Spread of Infectious Diseases with R <a href='https://fgazzelloni.github.io/hmsidwR/'><img src='man/figures/logo.png' align="right" width="25%" min-width="120px" /></a>
 
 <!-- badges: start -->
 
