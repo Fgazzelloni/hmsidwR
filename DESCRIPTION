@@ -17,12 +17,12 @@ Depends:
     R (>= 2.10)
 Imports: 
     ggplot2,
-    ggthemes,
     purrr
 Suggests: 
     devtools,
     dplyr,
     geomtextpath,
+    ggthemes,
     httr,
     janitor,
     knitr,

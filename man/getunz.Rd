@@ -19,7 +19,7 @@ csv files in it and read them.
 Download, Unzip and Read Data: getunz
 }
 \examples{
-\dontrun{
+url <- "https://www.healthdata.org/.../some-file.zip"
 getunz("url")
-}
+
 }

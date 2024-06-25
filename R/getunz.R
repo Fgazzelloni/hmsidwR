@@ -9,9 +9,11 @@
 #' @export
 #'
 #' @examples
-#' \dontrun{
-#' getunz("url")
-#' }
+#' Select a dataset from the IHME GBD results and download it. You will receive an email with a url.
+#' Use the url to download the data.
+#' url <- "https://www.healthdata.org/.../some-file.zip"
+#' getunz(url)
+#'
 getunz <- function(url) {
   url <- url
   temp_dir <- tempdir()

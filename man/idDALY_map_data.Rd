@@ -21,7 +21,8 @@ The variables are as follows:
 ggplot(data = idDALY_map_data) +
 geom_sf(aes(fill=DALYs))+
 labs(title="Infectious Diseases World Map",
-caption="Average DALYs per country 1990-2021\n DataSource: IHME Data & ggplot2::map_data")+
+caption="Average DALYs per country 1990-2021
+DataSource: IHME Data & ggplot2::map_data")+
 scale_fill_viridis_c()+
 ggthemes::theme_map()+
 theme(plot.title = element_text(hjust = 0.5),
