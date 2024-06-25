@@ -1,4 +1,5 @@
-# hmsidwR - Health Metrics and the Spread of Infectious Diseases with R <a href='https://fgazzelloni.github.io/hmsidwR/'><img src='man/figures/logo.png' align="right" width="25%" min-width="120px" /></a>
+
+# hmsidwR - Health Metrics and the Spread of Infectious Diseases with R
 
 <!-- badges: start -->
 
@@ -27,7 +28,6 @@ This is a basic example which shows you how to solve a common problem:
 ``` r
 library(hmsidwR)
 library(dplyr)
-
 data(sdi90_19)
 head(subset(sdi90_19, location == "Global"))
 #> # A tibble: 6 × 3

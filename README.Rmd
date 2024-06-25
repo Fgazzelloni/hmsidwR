@@ -38,7 +38,7 @@ devtools::install_github("Fgazzelloni/hmsidwR")
 
 This is a basic example which shows you how to solve a common problem:
 
-```{r load data}
+```{r load data, warning=FALSE, message=FALSE}
 library(hmsidwR)
 library(dplyr)
 data(sdi90_19)
