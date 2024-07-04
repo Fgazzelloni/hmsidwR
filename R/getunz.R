@@ -3,8 +3,9 @@
 #' @param url A url string for a .zip file.
 #'
 #' @return A dataframe object from a zipped file.
+#' Particulary useful For downloading data from IHME GBD Results: "https://vizhub.healthdata.org/gbd-results/".
 #' The function takes the url, creates a temp directory,
-#' unzip the file, lists the available csv files, if more than one and reads them.
+#' unzip the file, if more than one csv files is available, it lists the files, and reads them.
 #'
 #' Select a dataset from the IHME GBD results and download it.
 #' You will receive an email with a url.
