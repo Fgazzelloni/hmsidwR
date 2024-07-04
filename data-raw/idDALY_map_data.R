@@ -73,10 +73,10 @@ idDALY_map_data <- dat %>%
   st_cast("POLYGON")
 
 # write a sf object to a shapefile
-sf::st_write(
-  idDALY_map_data,
-  "inst/extdata/ihme/infectious_diseases/idDALY_map_data.shp"
-)
+# sf::st_write(
+#   idDALY_map_data,
+#   "inst/extdata/ihme/infectious_diseases/idDALY_map_data.shp"
+# )
 
 world_map <- map_data("world") %>%
   filter(!region == "Antarctica") %>%
@@ -113,7 +113,5 @@ world_map %>%
   )
 
 
-usethis::use_data(idDALY_map_data,
-  overwrite = TRUE
-)
+usethis::use_data(idDALY_map_data, overwrite = TRUE)
 devtools::document()
