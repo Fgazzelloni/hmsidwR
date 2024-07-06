@@ -4,7 +4,7 @@ Title: Collection of data and functions used in the Health Metrics and the Sprea
 Version: 0.0.0.9000
 Authors@R: 
     person("Federica", "Gazzelloni", , "fede.gazzelloni@gmail.com", role = c("aut", "cre"),
-           comment = c(ORCID = "0000-0002-4285-611"))
+           comment = c(ORCID = "0000-0002-4285-611X"))
 Description: This package provides data sets and author's functions used
     in the Health Metrics and the Spread of Infectious Diseases with R
     book from CRC Press. The book provides the tools for calculating the DALYs (YLLs+YLDs), and other important health metrics.

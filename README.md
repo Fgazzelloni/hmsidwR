@@ -5,6 +5,8 @@
 
 [![DOI](https://zenodo.org/badge/768163778.svg)](https://zenodo.org/badge/latestdoi/768163778)
 [![R-CMD-check](https://github.com/Fgazzelloni/hmsidwR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Fgazzelloni/hmsidwR/actions/workflows/R-CMD-check.yaml)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/hmsidwR)](https://CRAN.R-project.org/package=hmsidwR)
 <!-- badges: end -->
 
 The goal of `{hmsidwR}` is to provide the set of data used in the
