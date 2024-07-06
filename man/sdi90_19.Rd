@@ -3,7 +3,7 @@
 \docType{data}
 \name{sdi90_19}
 \alias{sdi90_19}
-\title{Socio-Demographic Index (SDI) for 1990 and 2019}
+\title{Dataset: Health Metrics Data - Socio-Demographic Index (SDI) for 1990 and 2019}
 \format{
 A dataframe with 20010 rows and 3 variables:
 

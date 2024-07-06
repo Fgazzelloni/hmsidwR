@@ -1,4 +1,4 @@
-#' Health Data from the Institute of Health Metrics and Evaluations (IHME)
+#' Dataset: Health Metrics Data - Rabies Deaths and DALYs
 #'
 #' A subset of data from the IHME GBD on Deaths All Causes and due to Rabies,
 #' it also provides the DALYs estimated values.

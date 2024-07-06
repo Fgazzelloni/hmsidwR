@@ -1,4 +1,4 @@
-#' Health Data from the Institute of Health Metrics and Evaluations (IHME)
+#' Dataset: Health Metrics Data - G7 Countries
 #'
 #' A subset of data from the IHME GBD on Deaths, DALYs, YLLs, YLDs, Incidence and Prevalence, age standardized all Causes and level 2 causes.
 #' For years 2010 and 2019.

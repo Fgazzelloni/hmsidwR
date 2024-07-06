@@ -1,4 +1,4 @@
-#' Socio-Demographic Index (SDI) for 1990 and 2019
+#' Dataset: Health Metrics Data - Socio-Demographic Index (SDI) for 1990 and 2019
 #'
 #' A subset of data from the IHME GBD containing location, year and
 #' estimated values of the SDI for the years 1990 and 2019.

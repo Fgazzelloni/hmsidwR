@@ -1,7 +1,5 @@
-#' Health Data from the Institute of Health Metrics and Evaluations (IHME)
+#' Dataset: Health Metrics Data - G7 Countries Incidence and Prevalence for CVD and Stroke in 2019
 #'
-#' A subset of data from the IHME GBD on Incidence and Prevalence for CVD and Stroke
-#' in 2019.
 #'
 #' Locations available are Global, Canada, France, Germany, Italy, Japan, UK, and US.
 #'

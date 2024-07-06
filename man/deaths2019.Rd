@@ -3,7 +3,7 @@
 \docType{data}
 \name{deaths2019}
 \alias{deaths2019}
-\title{Health Metrics - Number of Deaths Due to 9 Causes in 2019}
+\title{Dataset: Health Metrics Data - Number of Deaths Due to 9 Causes in 2019}
 \format{
 A dataframe with 2754 rows and 7 variables:
 
@@ -40,5 +40,9 @@ deaths2019
 }
 \description{
 A dataset containing the number of deaths due to 9 causes in 6 regions for 2019.
+}
+\examples{
+data(deaths2019)
+head(deaths2019)
 }
 \keyword{datasets}

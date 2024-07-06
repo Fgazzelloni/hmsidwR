@@ -1,4 +1,4 @@
-#' Health Metrics - Infectious Diseases 1980-2021
+#' Dataset: Health Metrics Data - Infectious Diseases 1980-2021
 #'
 #' A dataset containing deaths rates, dalys, ylls, ylds, prevalence and incidence due to infectious diseases form 1980 to 2021 for Lesotho, Eswatini, Malawi, Central African Republic, and Zambia.
 #'

@@ -3,7 +3,7 @@
 \docType{data}
 \name{infectious_diseases}
 \alias{infectious_diseases}
-\title{Health Metrics - Infectious Diseases 1980-2021}
+\title{Dataset: Health Metrics Data - Infectious Diseases 1980-2021}
 \format{
 A dataframe with 7470 rows and 10 variables:
 

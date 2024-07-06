@@ -3,7 +3,7 @@
 \docType{data}
 \name{g7_inc_prev_CVD2019}
 \alias{g7_inc_prev_CVD2019}
-\title{Health Data from the Institute of Health Metrics and Evaluations (IHME)}
+\title{Dataset: Health Metrics Data - G7 Countries Incidence and Prevalence for CVD and Stroke in 2019}
 \format{
 A dataframe with 1824 rows and 8 variables:
 
@@ -27,10 +27,6 @@ The variables are as follows:
 g7_inc_prev_CVD2019
 }
 \description{
-A subset of data from the IHME GBD on Incidence and Prevalence for CVD and Stroke
-in 2019.
-}
-\details{
 Locations available are Global, Canada, France, Germany, Italy, Japan, UK, and US.
 }
 \keyword{datasets}

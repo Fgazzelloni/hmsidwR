@@ -37,20 +37,3 @@ theme_hmsid <- function(base_size, text_size,
       complete = TRUE
     )
 }
-
-
-
-# showtext::showtext_auto()
-# sysfonts::font_add(regular = "OpenSans-VariableFont_wdth,wght.ttf" ,
-#                    family = "Open Sans")
-# library(ggplot2)
-# set.seed(123)
-# dat <- data.frame(x=seq_along(1:10),
-#                   y=rnorm(n = 10,mean = 0.5,sd = 1),
-#                   z=rep(c("a","b"),10))
-# dat |>
-# ggplot(aes(x=x,y=y,group=z,color=z))+
-# geom_line()+
-#   labs(title="Pick of infection in location a and b",
-#        caption = "Synthetic data | FG")+
-# theme_hmsid()

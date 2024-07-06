@@ -3,7 +3,7 @@
 \docType{data}
 \name{g7_hmetrics}
 \alias{g7_hmetrics}
-\title{Health Data from the Institute of Health Metrics and Evaluations (IHME)}
+\title{Dataset: Health Metrics Data - G7 Countries}
 \format{
 A dataframe with 8610 rows and 9 variables:
 

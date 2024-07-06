@@ -13,6 +13,10 @@ Applications and Spatial Modeling Analysis with R** book.
 
 ## Installation
 
+``` r
+install.packages("hmsidwR")
+```
+
 You can install the development version of hmsidwR from
 [GitHub](https://github.com/) with:
 

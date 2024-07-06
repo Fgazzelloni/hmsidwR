@@ -1,4 +1,4 @@
-#' Global Health Observatory (GHO) life tables: WHO Global life table values
+#' Dataset: Global Health Observatory (GHO) life tables: WHO Global life table values
 #'
 #' A dataset containing the Global region life tables from 2000 to 2019.
 #'

@@ -1,4 +1,4 @@
-#' Health Metrics - Infectious Diseases 1980-2021
+#' Dataset: Health Metrics Data - Infectious Diseases 1980-2021
 #'
 #' A dataset containing average values for deaths rates, dalys, ylls, ylds due to 37 infectious diseases form 1980 to 2012 for all countries.
 #'

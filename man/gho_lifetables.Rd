@@ -3,7 +3,7 @@
 \docType{data}
 \name{gho_lifetables}
 \alias{gho_lifetables}
-\title{Global Health Observatory (GHO) life tables: WHO Global life table values}
+\title{Dataset: Global Health Observatory (GHO) life tables: WHO Global life table values}
 \format{
 A dataframe with 1995 rows and 5 variables:
 

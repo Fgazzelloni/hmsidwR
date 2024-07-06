@@ -3,7 +3,7 @@
 \docType{data}
 \name{rabies}
 \alias{rabies}
-\title{Health Data from the Institute of Health Metrics and Evaluations (IHME)}
+\title{Dataset: Health Metrics Data - Rabies Deaths and DALYs}
 \format{
 A dataframe with 240 rows and 7 variables:
 

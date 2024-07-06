@@ -1,7 +1,10 @@
-#' Health Metrics - Number of Deaths Due to 9 Causes in 2019
+#' Dataset: Health Metrics Data - Number of Deaths Due to 9 Causes in 2019
 #'
 #' A dataset containing the number of deaths due to 9 causes in 6 regions for 2019.
 #'
+#' @docType data
+#' @name deaths2019
+#' @usage deaths2019
 #' @format A dataframe with `r dim(deaths2019)[1]` rows and `r dim(deaths2019)[2]` variables:
 #'
 #' The variables are as follows:
@@ -29,5 +32,8 @@
 #' \item{lower}{numeric, lower value estimation}
 #' }
 #'
+#' @examples
+#' data(deaths2019)
+#' head(deaths2019)
 #' @source {2019 data from the [IHME](https://vizhub.healthdata.org/gbd-results/) website}
 "deaths2019"

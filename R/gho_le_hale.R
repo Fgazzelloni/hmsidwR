@@ -1,4 +1,4 @@
-#' Global Health Observatory (GHO) - Countries Life Expectancy and HALE 2000-2019
+#' Dataset: Global Health Observatory (GHO) - Countries Life Expectancy and HALE 2000-2019
 #'
 #' A dataset containing World countries Life Expectancy and HALE from 2000 to 2019.
 #'

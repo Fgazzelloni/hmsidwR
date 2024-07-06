@@ -3,7 +3,7 @@
 \docType{data}
 \name{idDALY_map_data}
 \alias{idDALY_map_data}
-\title{Health Metrics - Simple Feature Collection
+\title{Dataset: Health Metrics Data - Simple Feature Collection
 Average DALYs per 100,000 population from 1990 to 2021}
 \format{
 A Simple feature collection with 1402 rows and 4 variables:
@@ -22,7 +22,7 @@ A Simple feature collection with 1402 rows and 4 variables:
 idDALY_map_data
 }
 \description{
-Health Metrics - Simple Feature Collection
+Dataset: Health Metrics Data - Simple Feature Collection
 Average DALYs per 100,000 population from 1990 to 2021
 }
 \keyword{datasets}

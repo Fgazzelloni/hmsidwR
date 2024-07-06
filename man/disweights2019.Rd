@@ -3,7 +3,7 @@
 \docType{data}
 \name{disweights2019}
 \alias{disweights2019}
-\title{Health Metrics - Disability Weights and Severity in 2019}
+\title{Dataset: Health Metrics Data - Disability Weights and Severity in 2019}
 \format{
 A dataframe with 133 rows and 8 variables:
 

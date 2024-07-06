@@ -1,4 +1,4 @@
-#' Health Metrics - Disability Weights and Severity in 2019
+#' Dataset: Health Metrics Data - Disability Weights and Severity in 2019
 #'
 #' A dataset containing the disability weights estimates, upper and lower values,
 #' and the severity level for Stroke, Tuberculosis, and HIV for 2019.
