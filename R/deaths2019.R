@@ -4,8 +4,8 @@
 #'
 #' @docType data
 #' @name deaths2019
-#' @usage deaths2019
-#' @format A dataframe with `r dim(deaths2019)[1]` rows and `r dim(deaths2019)[2]` variables:
+#' @usage data(deaths2019)
+#' @format A dataframe with 2754 rows and 7 variables:
 #'
 #' The variables are as follows:
 #'
@@ -35,5 +35,5 @@
 #' @examples
 #' data(deaths2019)
 #' head(deaths2019)
-#' @source {2019 data from the [IHME](https://vizhub.healthdata.org/gbd-results/) website}
+#' @source 2019 data from the \href{https://vizhub.healthdata.org/gbd-results/}{IHME} website
 "deaths2019"

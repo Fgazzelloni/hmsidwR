@@ -4,11 +4,11 @@
 \name{hmsidwR-package}
 \alias{hmsidwR}
 \alias{hmsidwR-package}
-\title{hmsidwR: Collection of data and functions used in the Health Metrics and the Spread of Infectious Diseases with R book}
+\title{hmsidwR: Health Metrics and the Spread of Infectious Diseases with R}
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-This package provides data sets and author's functions used in the Health Metrics and the Spread of Infectious Diseases with R book from CRC Press. The book provides the tools for calculating the DALYs (YLLs+YLDs), and other important health metrics. It also shows the R code for modeling infectious diseases with machine learning. Finally, allows the user to understand how to visualize the results and making maps.
+This package contains a collection of data and functions used in the Health Metrics and the Spread of Infectious Diseases with R book. The book provides the tools for calculating the DALYs (YLLs+YLDs), and other important health metrics. It also shows the R code for modeling infectious diseases with machine learning. Finally, allows the user to understand how to visualize the results and making maps.
 }
 \seealso{
 Useful links:
@@ -20,7 +20,7 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Federica Gazzelloni \email{fede.gazzelloni@gmail.com} (\href{https://orcid.org/0000-0002-4285-611}{ORCID})
+\strong{Maintainer}: Federica Gazzelloni \email{fede.gazzelloni@gmail.com} (\href{https://orcid.org/0000-0002-4285-611X}{ORCID})
 
 }
 \keyword{internal}

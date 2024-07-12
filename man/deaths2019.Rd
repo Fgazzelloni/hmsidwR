@@ -33,10 +33,10 @@ Tracheal, bronchus, and lung cancer}
 }
 }
 \source{
-{2019 data from the \href{https://vizhub.healthdata.org/gbd-results/}{IHME} website}
+2019 data from the \href{https://vizhub.healthdata.org/gbd-results/}{IHME} website
 }
 \usage{
-deaths2019
+data(deaths2019)
 }
 \description{
 A dataset containing the number of deaths due to 9 causes in 6 regions for 2019.
