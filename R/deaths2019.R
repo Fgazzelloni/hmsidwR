@@ -17,7 +17,7 @@
 #'                            United Kingdom,
 #'                            United States of America}
 #' \item{sex}{character, Female, Male, Both}
-#' \item{age}{character, age groups from 10-14 to 85+ each 5 years}
+#' \item{age}{character, age groups from <1 to 85+ each 5 years}
 #' \item{cause}{character, Alzheimer's disease and other dementias,
 #'                         Breast cancer,
 #'                         Chronic obstructive pulmonary disease,

@@ -11,7 +11,7 @@
 #'   \item{measure}{character, metric name}
 #'   \item{location}{character, country}
 #'   \item{sex}{character, Female, Male, Both}
-#'   \item{age}{character, age groups from 01 to 85+ each 5 years}
+#'   \item{age}{character, age groups from <1 to 85+ each 5 years}
 #'   \item{cause}{character, CVD and Stroke}
 #'   \item{val}{numeric, estimated values}
 #'   \item{upper}{numeric, estimated upper values}
