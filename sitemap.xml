@@ -1,84 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://fgazzelloni.github.io/hmsidwR/404.html</loc>
-  </url>
-  <url>
-    <loc>https://fgazzelloni.github.io/hmsidwR/LICENSE-text.html</loc>
-  </url>
-  <url>
-    <loc>https://fgazzelloni.github.io/hmsidwR/LICENSE.html</loc>
-  </url>
-  <url>
-    <loc>https://fgazzelloni.github.io/hmsidwR/articles/Case-Study-id.html</loc>
-  </url>
-  <url>
-    <loc>https://fgazzelloni.github.io/hmsidwR/articles/Case-Study-sdi90_19.html</loc>
-  </url>
-  <url>
-    <loc>https://fgazzelloni.github.io/hmsidwR/articles/hmsidwR.html</loc>
-  </url>
-  <url>
-    <loc>https://fgazzelloni.github.io/hmsidwR/articles/index.html</loc>
-  </url>
-  <url>
-    <loc>https://fgazzelloni.github.io/hmsidwR/authors.html</loc>
-  </url>
-  <url>
-    <loc>https://fgazzelloni.github.io/hmsidwR/index.html</loc>
-  </url>
-  <url>
-    <loc>https://fgazzelloni.github.io/hmsidwR/news/index.html</loc>
-  </url>
-  <url>
-    <loc>https://fgazzelloni.github.io/hmsidwR/reference/deaths2019.html</loc>
-  </url>
-  <url>
-    <loc>https://fgazzelloni.github.io/hmsidwR/reference/disweights2019.html</loc>
-  </url>
-  <url>
-    <loc>https://fgazzelloni.github.io/hmsidwR/reference/g7_hmetrics.html</loc>
-  </url>
-  <url>
-    <loc>https://fgazzelloni.github.io/hmsidwR/reference/g7_inc_prev_CVD2019.html</loc>
-  </url>
-  <url>
-    <loc>https://fgazzelloni.github.io/hmsidwR/reference/germany_lungc.html</loc>
-  </url>
-  <url>
-    <loc>https://fgazzelloni.github.io/hmsidwR/reference/getunz.html</loc>
-  </url>
-  <url>
-    <loc>https://fgazzelloni.github.io/hmsidwR/reference/gho_le_hale.html</loc>
-  </url>
-  <url>
-    <loc>https://fgazzelloni.github.io/hmsidwR/reference/gho_lifetables.html</loc>
-  </url>
-  <url>
-    <loc>https://fgazzelloni.github.io/hmsidwR/reference/hmsidwR-package.html</loc>
-  </url>
-  <url>
-    <loc>https://fgazzelloni.github.io/hmsidwR/reference/idDALY_map_data.html</loc>
-  </url>
-  <url>
-    <loc>https://fgazzelloni.github.io/hmsidwR/reference/id_affected_countries.html</loc>
-  </url>
-  <url>
-    <loc>https://fgazzelloni.github.io/hmsidwR/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>https://fgazzelloni.github.io/hmsidwR/reference/infectious_diseases.html</loc>
-  </url>
-  <url>
-    <loc>https://fgazzelloni.github.io/hmsidwR/reference/rabies.html</loc>
-  </url>
-  <url>
-    <loc>https://fgazzelloni.github.io/hmsidwR/reference/sdi90_19.html</loc>
-  </url>
-  <url>
-    <loc>https://fgazzelloni.github.io/hmsidwR/reference/string_search.html</loc>
-  </url>
-  <url>
-    <loc>https://fgazzelloni.github.io/hmsidwR/reference/theme_hmsid.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://fgazzelloni.github.io/hmsidwR/404.html</loc></url>
+<url><loc>https://fgazzelloni.github.io/hmsidwR/LICENSE-text.html</loc></url>
+<url><loc>https://fgazzelloni.github.io/hmsidwR/LICENSE.html</loc></url>
+<url><loc>https://fgazzelloni.github.io/hmsidwR/articles/Case-Study-id.html</loc></url>
+<url><loc>https://fgazzelloni.github.io/hmsidwR/articles/Case-Study-sdi90_19.html</loc></url>
+<url><loc>https://fgazzelloni.github.io/hmsidwR/articles/hmsidwR.html</loc></url>
+<url><loc>https://fgazzelloni.github.io/hmsidwR/articles/index.html</loc></url>
+<url><loc>https://fgazzelloni.github.io/hmsidwR/authors.html</loc></url>
+<url><loc>https://fgazzelloni.github.io/hmsidwR/index.html</loc></url>
+<url><loc>https://fgazzelloni.github.io/hmsidwR/news/index.html</loc></url>
+<url><loc>https://fgazzelloni.github.io/hmsidwR/reference/deaths2019.html</loc></url>
+<url><loc>https://fgazzelloni.github.io/hmsidwR/reference/deaths9.html</loc></url>
+<url><loc>https://fgazzelloni.github.io/hmsidwR/reference/disweights2019.html</loc></url>
+<url><loc>https://fgazzelloni.github.io/hmsidwR/reference/g7_hmetrics.html</loc></url>
+<url><loc>https://fgazzelloni.github.io/hmsidwR/reference/g7_inc_prev_CVD2019.html</loc></url>
+<url><loc>https://fgazzelloni.github.io/hmsidwR/reference/germany_lungc.html</loc></url>
+<url><loc>https://fgazzelloni.github.io/hmsidwR/reference/getunz.html</loc></url>
+<url><loc>https://fgazzelloni.github.io/hmsidwR/reference/gho_le_hale.html</loc></url>
+<url><loc>https://fgazzelloni.github.io/hmsidwR/reference/gho_lifetables.html</loc></url>
+<url><loc>https://fgazzelloni.github.io/hmsidwR/reference/hmsidwR-package.html</loc></url>
+<url><loc>https://fgazzelloni.github.io/hmsidwR/reference/idDALY_map_data.html</loc></url>
+<url><loc>https://fgazzelloni.github.io/hmsidwR/reference/id_affected_countries.html</loc></url>
+<url><loc>https://fgazzelloni.github.io/hmsidwR/reference/index.html</loc></url>
+<url><loc>https://fgazzelloni.github.io/hmsidwR/reference/infectious_diseases.html</loc></url>
+<url><loc>https://fgazzelloni.github.io/hmsidwR/reference/rabies.html</loc></url>
+<url><loc>https://fgazzelloni.github.io/hmsidwR/reference/sdi90_19.html</loc></url>
+<url><loc>https://fgazzelloni.github.io/hmsidwR/reference/string_search.html</loc></url>
+<url><loc>https://fgazzelloni.github.io/hmsidwR/reference/theme_hmsid.html</loc></url>
 </urlset>
+
