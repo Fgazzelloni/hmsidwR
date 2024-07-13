@@ -1,24 +1,19 @@
-# G7 countries Health Metrics - Incidence and Prevalence for CVD 2019
-# percent values
+# Global Region Health Metrics Data - Incidence and Prevalence for Stroke 2019 and 2021
+# Numbers - 5-year age groups from <1 to 85+ and both
 library(tidyverse, quietly = T)
 # this link expired
-url <- "https://dl.healthdata.org:443/gbd-api-2019-public/2de0ac3d09765f477067d652e65d9b03_files/IHME-GBD_2019_DATA-2de0ac3d-1.zip"
+url <- "https://dl.healthdata.org:443/gbd-api-2021-public/9fccb9bbb734156f0976cde6a93396c8_files/IHME-GBD_2021_DATA-9fccb9bb-1.zip"
 dat <- hmsidwR::getunz(url)
 
-g7_inc_prev_CVD2019 <- dat %>%
+incprev_stroke1921 <- dat %>%
   as.data.frame() %>%
-  select(-metric, -year) %>%
+  select(-metric, -location, -cause) %>%
   mutate(
     age = gsub(" .*", "", age),
-    age = gsub("1-4", "01-04", age),
+    age = gsub("2-4", "01-04", age),
     age = gsub("5-9", "05-09", age),
     # age = gsub("<1", "-01", age),
-    sex = tolower(sex),
-    location = case_when(location == "United Kingdom" ~ "UK",
-      location == "United States" ~ "US",
-      .default = location
-    )
-  )
+    sex = tolower(sex))
 
 # Define the correct order of age groups
 age_levels <- c("<1", "01-04", "05-09", "10-14",
@@ -28,11 +23,11 @@ age_levels <- c("<1", "01-04", "05-09", "10-14",
                 "75-79", "80-84", "85+")
 
 # Convert the Age column to a factor with the specified order
-g7_inc_prev_CVD2019$age <- factor(g7_inc_prev_CVD2019$age,
+incprev_stroke1921$age <- factor(incprev_stroke1921$age,
                                   levels = age_levels,
                                   ordered = TRUE)
-g7_inc_prev_CVD2019 <- g7_inc_prev_CVD2019[order(g7_inc_prev_CVD2019$age), ]
+incprev_stroke1921 <- incprev_stroke1921[order(incprev_stroke1921$age), ]
 
 
-usethis::use_data(g7_inc_prev_CVD2019, overwrite = TRUE)
+usethis::use_data(incprev_stroke1921, overwrite = TRUE)
 devtools::document()
