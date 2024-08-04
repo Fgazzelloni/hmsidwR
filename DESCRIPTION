@@ -12,7 +12,9 @@ Depends:
     R (>= 2.10)
 Imports: 
     ggplot2,
-    purrr
+    gstat,
+    purrr,
+    tibble
 Suggests: 
     devtools,
     dplyr,
