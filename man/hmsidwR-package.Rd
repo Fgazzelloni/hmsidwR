@@ -8,7 +8,7 @@
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-This package contains a collection of data and functions used in the Health Metrics and the Spread of Infectious Diseases with R book. The book provides the tools for calculating the DALYs (YLLs+YLDs), and other important health metrics. It also shows the R code for modeling infectious diseases with machine learning. Finally, allows the user to understand how to visualize the results and making maps.
+A collection of data and functions used in the Health Metrics and the Spread of Infectious Diseases with R book. The book provides the tools for calculating the DALYs (YLLs+YLDs), and other important health metrics. It also shows the R code for modeling infectious diseases with machine learning. Finally, allows the user to understand how to visualize the results and making maps.
 }
 \seealso{
 Useful links:
