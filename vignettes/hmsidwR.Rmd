@@ -31,7 +31,7 @@ library(hmsidwR)
 ```
 
 
-This package provides the set of data used in the **Health Metrics and the Spread of Infectious Diseases Machine Learning Applications and Spatial Modeling Analysis with R** book.
+This package provides the set of data used in the **Health Metrics and the Spread of Infectious Diseases Machine Learning Applications and Spatial Modeling Analysis** book.
 
 ## Load Sample Data
 

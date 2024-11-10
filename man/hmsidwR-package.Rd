@@ -4,11 +4,11 @@
 \name{hmsidwR-package}
 \alias{hmsidwR}
 \alias{hmsidwR-package}
-\title{hmsidwR: Health Metrics and the Spread of Infectious Diseases with R}
+\title{hmsidwR: Health Metrics and the Spread of Infectious Diseases}
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-A collection of data and functions used in the Health Metrics and the Spread of Infectious Diseases with R book. The book provides the tools for calculating the DALYs (YLLs+YLDs), and other important health metrics. It also shows the R code for modeling infectious diseases with machine learning. Finally, allows the user to understand how to visualize the results and making maps.
+A collection of data and functions used in the Health Metrics and the Spread of Infectious Diseases book. The book provides the tools for calculating the DALYs (YLLs+YLDs), and other important health metrics. It also shows the R code for modeling infectious diseases with machine learning. Finally, allows the user to understand how to visualize the results and making maps. Gazzelloni (2024) \doi{10.5281/zenodo.10818338}.
 }
 \seealso{
 Useful links:

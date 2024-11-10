@@ -1,19 +1,21 @@
-# Rabies vs. all causes
+# Rabies vs. all causes Rates of Deaths and DALYs from 1980 to 2021 in the Global Region and Asia.
 
-url <- "https://dl.healthdata.org/gbd-api-2019-public/fed4fc57f2ce4d5c181a9deac39da4e7_files/IHME-GBD_2019_DATA-fed4fc57-1.zip"
-dat <- hmsidwR::getunz(url)
 library(tidyverse, quietly = T)
-rabies <- dat %>%
-  as.data.frame() %>%
+rabies_raw <- unzip("inst/extdata/ihme/rabies_raw.zip",
+              exdir = tempdir())
+
+rabies_raw <- read_csv(rabies_raw[1])
+
+rabies <- rabies_raw %>%
   select(-sex, -metric, -age) %>%
-  mutate(
-    measure = gsub("^\\s*(\\S+).*", "\\1", measure),
-    measure = trimws(measure),
-    val = round(val, 3),
-    upper = round(upper),
-    lower = round(lower, 3)
-  )
+  mutate(measure = gsub("^\\s*(\\S+).*", "\\1", measure),
+         measure = trimws(measure),
+         val = round(val, 3),
+         upper = round(upper),
+         lower = round(lower, 3))
 
 
-usethis::use_data(rabies, overwrite = F)
+usethis::use_data(rabies,
+                  overwrite = TRUE,
+                  compress = "xz")
 devtools::document()

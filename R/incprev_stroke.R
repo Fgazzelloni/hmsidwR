@@ -2,7 +2,7 @@
 #' Numbers - 5-year age groups from <1 to 85+ and both
 #' Location available Global
 #'
-#' @format A dataframe with `r dim(incprev_stroke1921)[1]` rows and `r dim(incprev_stroke1921)[2]` variables:
+#' @format A dataframe with `r dim(incprev_stroke)[1]` rows and `r dim(incprev_stroke)[2]` variables:
 #'
 #' The variables are as follows:
 #'
@@ -16,4 +16,4 @@
 #'   \item{lower}{numeric, estimated lower values}
 #' }
 #' @source <https://vizhub.healthdata.org/gbd-results/>
-"incprev_stroke1921"
+"incprev_stroke"

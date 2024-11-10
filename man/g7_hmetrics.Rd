@@ -5,7 +5,7 @@
 \alias{g7_hmetrics}
 \title{Dataset: Health Metrics Data - G7 Countries}
 \format{
-A dataframe with 8610 rows and 9 variables:
+A dataframe with 3402 rows and 9 variables:
 
 The variables are as follows:
 
@@ -13,7 +13,7 @@ The variables are as follows:
 \item{measure}{character, metric name}
 \item{location}{character, country}
 \item{sex}{character, Female, Male, Both}
-\item{cause}{character, all causes, level 2 causes}
+\item{cause}{character, all causes, and respiratory infections and tuberculosis}
 \item{year}{integer, year}
 \item{val}{numeric, estimated values}
 \item{upper}{numeric, estimated upper values}
@@ -27,8 +27,8 @@ The variables are as follows:
 g7_hmetrics
 }
 \description{
-A subset of data from the IHME GBD on Deaths, DALYs, YLLs, YLDs, Incidence and Prevalence, age standardized all Causes and level 2 causes.
-For years 2010 and 2019.
+A subset of data from the IHME GBD on Deaths, DALYs, YLLs, YLDs, Incidence and Prevalence, age standardized for all causes and respiratory infections and tuberculosis.
+For years 2010, 2019 and 2021.
 }
 \details{
 Locations available are Global, Canada, France, Germany, Italy, Japan, UK, and US.

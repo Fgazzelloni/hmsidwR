@@ -1,7 +1,7 @@
 #' Dataset: Health Metrics Data - G7 Countries
 #'
-#' A subset of data from the IHME GBD on Deaths, DALYs, YLLs, YLDs, Incidence and Prevalence, age standardized all Causes and level 2 causes.
-#' For years 2010 and 2019.
+#' A subset of data from the IHME GBD on Deaths, DALYs, YLLs, YLDs, Incidence and Prevalence, age standardized for all causes and respiratory infections and tuberculosis.
+#' For years 2010, 2019 and 2021.
 #'
 #' Locations available are Global, Canada, France, Germany, Italy, Japan, UK, and US.
 #'
@@ -13,7 +13,7 @@
 #'   \item{measure}{character, metric name}
 #'   \item{location}{character, country}
 #'   \item{sex}{character, Female, Male, Both}
-#'   \item{cause}{character, all causes, level 2 causes}
+#'   \item{cause}{character, all causes, and respiratory infections and tuberculosis}
 #'   \item{year}{integer, year}
 #'   \item{val}{numeric, estimated values}
 #'   \item{upper}{numeric, estimated upper values}

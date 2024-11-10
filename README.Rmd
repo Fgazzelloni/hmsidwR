@@ -2,8 +2,6 @@
 output: github_document
 ---
 
-
-
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
@@ -15,7 +13,7 @@ knitr::opts_chunk$set(
 options(rmarkdown.html_vignette.check_title = FALSE)
 ```
 
-# hmsidwR - Health Metrics and the Spread of Infectious Diseases with R
+# hmsidwR - Health Metrics and the Spread of Infectious Diseases
 
 <!-- badges: start -->
 [![DOI](https://zenodo.org/badge/768163778.svg)](https://zenodo.org/badge/latestdoi/768163778)
@@ -23,8 +21,7 @@ options(rmarkdown.html_vignette.check_title = FALSE)
 [![CRAN status](https://www.r-pkg.org/badges/version/hmsidwR)](https://CRAN.R-project.org/package=hmsidwR)
 <!-- badges: end -->
 
-The goal of `{hmsidwR}` is to provide the set of data used in the **Health Metrics and the Spread of Infectious Diseases
-Machine Learning Applications and Spatial Modeling Analysis with R** book.
+The goal of `{hmsidwR}` is to provide the set of data used in the **Health Metrics and the Spread of Infectious Diseases Machine Learning Applications and Spatial Modeling Analysis** book.
 
 ## Installation
 

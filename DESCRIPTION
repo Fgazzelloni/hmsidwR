@@ -1,13 +1,14 @@
 Package: hmsidwR
-Title: Health Metrics and the Spread of Infectious Diseases with R
+Title: Health Metrics and the Spread of Infectious Diseases
 Version: 1.1.0
 Authors@R: 
     person("Federica", "Gazzelloni", , "fede.gazzelloni@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-4285-611X"))
-Description: A collection of data and functions used in the Health Metrics and the Spread of Infectious Diseases with R book. The book provides the tools for calculating the DALYs (YLLs+YLDs), and other important health metrics. It also shows the R code for modeling infectious diseases with machine learning. Finally, allows the user to understand how to visualize the results and making maps.
+Description: A collection of data and functions used in the Health Metrics and the Spread of Infectious Diseases book. The book provides the tools for calculating the DALYs (YLLs+YLDs), and other important health metrics. It also shows the R code for modeling infectious diseases with machine learning. Finally, allows the user to understand how to visualize the results and making maps. Gazzelloni (2024) <doi:10.5281/zenodo.10818338>.
 License: MIT + file LICENSE
 URL: https://github.com/Fgazzelloni/hmsidwR, https://fgazzelloni.github.io/hmsidwR/
 BugReports: https://github.com/Fgazzelloni/hmsidwR/issues
+DOI: 10.5281/zenodo.10818338
 Depends: 
     R (>= 2.10)
 Imports: 
@@ -40,5 +41,5 @@ Config/testthat/edition: 3
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2
 VignetteBuilder: knitr

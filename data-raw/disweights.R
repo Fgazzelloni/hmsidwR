@@ -1,8 +1,8 @@
 # Health Metrics - Disability Weights for 2019
-# For the 440 health states estimation of nonfatal health outcomes.
+# For the 440 health states estimation of non fatal health outcomes.
 library(tidyverse, quietly = T)
 # download the 2019 data and read it
-data19 <- readxl::read_xlsx("inst/extdata/ihme/IHME_GBD_2019_DISABILITY_WEIGHTS_Y2020M010D15.XLSX",
+disweights19_raw <- readxl::read_xlsx("inst/extdata/ihme/disweights19_raw.XLSX",
                             skip=1) %>%
   janitor::clean_names() %>%
   mutate(year=2019)%>%
@@ -21,12 +21,12 @@ data19 <- readxl::read_xlsx("inst/extdata/ihme/IHME_GBD_2019_DISABILITY_WEIGHTS_
          lower = as.double(lower))
 
 # download the 2021 data and read it
-data21 <- read_csv("inst/extdata/ihme/IHME_GBD_2021_DISABILITY_WEIGHTS_Y2024M05D13.csv")%>%
+disweights21_raw <- read_csv("inst/extdata/ihme/disweights21_raw.csv")%>%
   janitor::clean_names() %>%
   mutate(year=2021)%>%
   rename(sequela = sequela_name, dw = mean)
 
-data <- bind_rows(data19, data21)
+data <- bind_rows(disweights19_raw, disweights21_raw)
 data <- data[,-3]
 names(data) <- c("sequela", "specification", "dw", "upper", "lower", "year")
 
@@ -79,5 +79,7 @@ disweights <- dw %>%
                            "mean", severity))
 
 # save the data
-usethis::use_data(disweights, overwrite = TRUE)
+usethis::use_data(disweights,
+                  compress = "xz",
+                  overwrite = TRUE)
 devtools::document()

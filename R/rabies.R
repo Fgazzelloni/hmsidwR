@@ -1,8 +1,6 @@
-#' Dataset: Health Metrics Data - Rabies Deaths and DALYs
+#' Dataset: Health Metrics Data - Rabies Deaths and DALYs from 1980 to 2021
 #'
-#' A subset of data from the IHME GBD on Deaths All Causes and due to Rabies,
-#' it also provides the DALYs estimated values.
-#' Locations available are Global and Asia.
+#' A subset of data from the IHME GBD on DALYs and Deaths due to All Causes and Rabies. Locations available are Global Region and Asia.
 #'
 #' @format A dataframe with `r dim(rabies)[1]` rows and `r dim(rabies)[2]` variables:
 #'

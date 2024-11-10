@@ -1,5 +1,6 @@
 ## Health Metrics - Germany lung cancer dataset
 library(tidyverse, quietly = T)
+
 germany_lungc <- hmsidwR::deaths2019 %>%
   filter(
     location == "Germany",
@@ -7,10 +8,8 @@ germany_lungc <- hmsidwR::deaths2019 %>%
   ) %>%
   select(-location, -cause)
 
-
 library(readxl)
 prev_lungcancer_germany2019 <- read_excel("inst/extdata/ihme/prev_lungcancer_germany2019.xlsx")
-
 
 germany_lungc <- prev_lungcancer_germany2019 %>%
   janitor::clean_names() %>%
@@ -37,5 +36,7 @@ germany_lungc <- prev_lungcancer_germany2019 %>%
 
 
 
-usethis::use_data(germany_lungc, overwrite = TRUE)
+usethis::use_data(germany_lungc,
+                  compress = "xz",
+                  overwrite = TRUE)
 devtools::document()

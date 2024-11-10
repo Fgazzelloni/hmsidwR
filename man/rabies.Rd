@@ -3,9 +3,9 @@
 \docType{data}
 \name{rabies}
 \alias{rabies}
-\title{Dataset: Health Metrics Data - Rabies Deaths and DALYs}
+\title{Dataset: Health Metrics Data - Rabies Deaths and DALYs from 1980 to 2021}
 \format{
-A dataframe with 240 rows and 7 variables:
+A dataframe with 296 rows and 7 variables:
 
 The variables are as follows:
 
@@ -26,8 +26,6 @@ The variables are as follows:
 rabies
 }
 \description{
-A subset of data from the IHME GBD on Deaths All Causes and due to Rabies,
-it also provides the DALYs estimated values.
-Locations available are Global and Asia.
+A subset of data from the IHME GBD on DALYs and Deaths due to All Causes and Rabies. Locations available are Global Region and Asia.
 }
 \keyword{datasets}

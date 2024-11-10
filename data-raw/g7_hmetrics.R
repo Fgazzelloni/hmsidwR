@@ -1,12 +1,14 @@
-# G7 countries Health Metrics - Age Standardized - 2010 and 2019
-
-url <- "https://dl.healthdata.org/gbd-api-2019-public/4688ee725666241b02a21a52dffce9dc_files/IHME-GBD_2019_DATA-4688ee72-1.zip"
-dat <- hmsidwR::getunz(url)
+# G7 countries Health Metrics - Age Standardized - 2010, 2019, and 2021 - All Causes and Respiratory Infections and Tuberculosis
 library(tidyverse, quietly = T)
-g7_hmetrics <- dat %>%
+g7_hmetrics_raw <- unzip("inst/extdata/ihme/g7_hmetrics_raw.zip",
+                         exdir = tempdir())
+
+g7_hmetrics_raw <- read_csv(g7_hmetrics_raw[1])
+
+g7_hmetrics <- g7_hmetrics_raw %>%
   as.data.frame() %>%
   mutate(
-    location = case_when(location == "United Kingdom of Great Britain and Northern Ireland" ~ "UK",
+    location = case_when(location == "United Kingdom" ~ "UK",
       location == "United States of America" ~ "US",
       .default = location
     ),
@@ -22,5 +24,7 @@ g7_hmetrics <- g7_hmetrics %>%
   mutate(sex = tolower(sex))
 
 
-usethis::use_data(g7_hmetrics, overwrite = F)
+usethis::use_data(g7_hmetrics,
+                  compress = "xz",
+                  overwrite = T)
 devtools::document()

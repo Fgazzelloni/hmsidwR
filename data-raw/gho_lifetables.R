@@ -2,10 +2,10 @@
 # Data is from the World Bank and the WHO
 # source: https://www.who.int/data/gho/data/indicators
 library(tidyverse, quietly = T)
-data <- read_csv("https://apps.who.int/gho/athena/data/data-verbose.csv?target=GHO/LIFE_0000000029,LIFE_0000000030,LIFE_0000000031,LIFE_0000000032,LIFE_0000000033,LIFE_0000000034,LIFE_0000000035&profile=verbose&filter=REGION:GLOBAL;COUNTRY:-&ead=")
-# data <- read.csv("data-raw/data/xmart.csv",header = F)
 
-gho_lifetables <- data %>%
+gho_lifetables_raw <- readRDS("inst/extdata/who/gho_lifetables_raw.rds")
+
+gho_lifetables <- gho_lifetables_raw %>%
   janitor::clean_names() %>%
   select(
     gho_display,
@@ -35,5 +35,7 @@ age_levels <- c("<1", "01-04", "05-09", "10-14", "15-19", "20-24", "25-29", "30-
 gho_lifetables$age <- factor(gho_lifetables$age, levels = age_levels, ordered = TRUE)
 gho_lifetables <- gho_lifetables[order(gho_lifetables$age), ]
 
-usethis::use_data(gho_lifetables, overwrite = TRUE)
+usethis::use_data(gho_lifetables,
+                  compress = "xz",
+                  overwrite = TRUE)
 devtools::document()

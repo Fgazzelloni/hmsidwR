@@ -1,5 +1,5 @@
 
-# hmsidwR - Health Metrics and the Spread of Infectious Diseases with R
+# hmsidwR - Health Metrics and the Spread of Infectious Diseases
 
 <!-- badges: start -->
 
@@ -11,7 +11,7 @@ status](https://www.r-pkg.org/badges/version/hmsidwR)](https://CRAN.R-project.or
 
 The goal of `{hmsidwR}` is to provide the set of data used in the
 **Health Metrics and the Spread of Infectious Diseases Machine Learning
-Applications and Spatial Modeling Analysis with R** book.
+Applications and Spatial Modeling Analysis** book.
 
 ## Installation
 
