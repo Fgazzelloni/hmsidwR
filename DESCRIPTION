@@ -1,6 +1,6 @@
 Package: hmsidwR
 Title: Health Metrics and the Spread of Infectious Diseases
-Version: 1.1.1
+Version: 1.1.2
 Authors@R: 
     person("Federica", "Gazzelloni", , "fede.gazzelloni@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-4285-611X"))
