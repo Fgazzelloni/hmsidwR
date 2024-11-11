@@ -5,9 +5,9 @@
 ^data-raw$
 ^vignettes/articles$
 ^doc$
+^docs$
 ^Meta$
 ^_pkgdown\.yml$
-^docs$
 ^pkgdown$
 ^\.github$
 ^codecov\.yml$

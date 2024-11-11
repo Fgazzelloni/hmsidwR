@@ -8,7 +8,6 @@ Description: A collection of data and functions used in the Health Metrics and t
 License: MIT + file LICENSE
 URL: https://github.com/Fgazzelloni/hmsidwR, https://fgazzelloni.github.io/hmsidwR/
 BugReports: https://github.com/Fgazzelloni/hmsidwR/issues
-DOI: 10.5281/zenodo.10818338
 Depends: 
     R (>= 2.10)
 Imports: 
