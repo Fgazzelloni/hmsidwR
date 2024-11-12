@@ -41,7 +41,7 @@ world_map <- map_data("world") %>%
 ```
 
 
-```{r}
+```{r fig.alt= "Infectious Diseases World Map"}
 world_map %>%
   ggplot() +
   geom_sf() +

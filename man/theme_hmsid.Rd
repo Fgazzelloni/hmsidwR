@@ -40,6 +40,6 @@ dat <- data.frame(
 dat |>
   ggplot(aes(x = x, y = y)) +
   geom_line() +
-  theme_hmsid()
+  hmsidwR::theme_hmsid()
 
 }

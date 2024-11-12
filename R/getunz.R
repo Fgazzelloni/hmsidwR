@@ -13,8 +13,11 @@
 #' @export
 #'
 #' @examples
+#' \dontrun{
+#' # This is a dontrun example because it requires a valid url.
 #' url <- "https://www.healthdata.org/.../some-file.zip"
 #' getunz(url)
+#' }
 #'
 getunz <- function(url) {
   url <- url

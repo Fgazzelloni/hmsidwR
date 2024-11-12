@@ -13,6 +13,8 @@
 #' @importFrom stats coef
 #'
 #' @examples
+#' \dontrun{
+#' # This is a dontrun example because it requires a spatial data object(data_sf).
 #' # Try different initial values for fitting the variogram models
 #' initial_values <- list(
 #'   list(psill = 1, range = 100000, nugget = 10),
@@ -24,15 +26,15 @@
 #' models <- c("Sph", "Exp", "Gau")
 #'
 #' # Select Best: Fit variogram models and kriging models
-#' result <- kbfit(response = "response",
-#'                 formula = response ~ predictor1 + predictor2,
-#'                 data = data_sf,
-#'                 models = c("Sph", "Exp", "Gau", "Mat"),
-#'                 initial_values = initial_values)
+#' result <- hmsidwR::kbfit(response = "response",
+#'                    formula = response ~ predictor1 + predictor2,
+#'                    data = data_sf,
+#'                    models = c("Sph", "Exp", "Gau", "Mat"),
+#'                    initial_values = initial_values)
 #'
 #' result$all_models
 #' result$best_model
-#'
+#'}
 kbfit <- function(response, formula, data,
                   models, initial_values) {
 

@@ -10,10 +10,11 @@ knitr::opts_chunk$set(
 ggplot2::theme_set(ggplot2::theme_minimal())
 ```
 
-```{r setup, message=FALSE, warning=FALSE}
+```{r, message=FALSE, warning=FALSE}
 library(hmsidwR)
 library(tidyverse)
 ```
+
 
 ```{r}
 data(sdi90_19)
@@ -27,7 +28,7 @@ sdi_avg <- sdi90_19 |>
 ```
 
 
-```{r}
+```{r fig.alt= "Socio-Demographic Index (SDI) 1990 - 2019"}
 sdi_avg |>
   ggplot(aes(x = year, sdi_avg, group = location)) +
   geom_line(

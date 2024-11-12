@@ -14,6 +14,8 @@ Imports:
     ggplot2,
     gstat,
     purrr,
+    showtext,
+    sysfonts,
     tibble
 Suggests: 
     devtools,
