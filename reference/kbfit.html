@@ -78,8 +78,7 @@
 
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="kw">if</span> <span class="op">(</span><span class="cn">FALSE</span><span class="op">)</span> <span class="op">{</span> <span class="co"># \dontrun{</span></span></span>
-<span class="r-in"><span><span class="co"># Try different initial values for fitting the variogram models</span></span></span>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="co"># Try different initial values for fitting the variogram models</span></span></span>
 <span class="r-in"><span><span class="va">initial_values</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html" class="external-link">list</a></span><span class="op">(</span></span></span>
 <span class="r-in"><span>  <span class="fu"><a href="https://rdrr.io/r/base/list.html" class="external-link">list</a></span><span class="op">(</span>psill <span class="op">=</span> <span class="fl">1</span>, range <span class="op">=</span> <span class="fl">100000</span>, nugget <span class="op">=</span> <span class="fl">10</span><span class="op">)</span>,</span></span>
 <span class="r-in"><span>  <span class="fu"><a href="https://rdrr.io/r/base/list.html" class="external-link">list</a></span><span class="op">(</span>psill <span class="op">=</span> <span class="fl">0.5</span>, range <span class="op">=</span> <span class="fl">50000</span>, nugget <span class="op">=</span> <span class="fl">5</span><span class="op">)</span>,</span></span>
@@ -95,10 +94,13 @@
 <span class="r-in"><span>                data <span class="op">=</span> <span class="va">data_sf</span>,</span></span>
 <span class="r-in"><span>                models <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"Sph"</span>, <span class="st">"Exp"</span>, <span class="st">"Gau"</span>, <span class="st">"Mat"</span><span class="op">)</span>,</span></span>
 <span class="r-in"><span>                initial_values <span class="op">=</span> <span class="va">initial_values</span><span class="op">)</span></span></span>
+<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error:</span> object 'data_sf' not found</span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="va">result</span><span class="op">$</span><span class="va">all_models</span></span></span>
+<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error:</span> object 'result' not found</span>
 <span class="r-in"><span><span class="va">result</span><span class="op">$</span><span class="va">best_model</span></span></span>
-<span class="r-in"><span><span class="op">}</span> <span class="co"># }</span></span></span>
+<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error:</span> object 'result' not found</span>
+<span class="r-in"><span></span></span>
 </code></pre></div>
     </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
