@@ -1,4 +1,4 @@
-#' Health Metrics Data - DALYs Estimations for 204 countries in 2021 with spatial information.
+#' Health Metrics Data - Disability-Adjusted Life Years (DALYs) Estimations for 204 countries in 2021 with spatial information.
 #'
 #' @docType data
 #' @name spatialdalys2021

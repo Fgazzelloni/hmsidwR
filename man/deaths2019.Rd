@@ -39,7 +39,7 @@ Tracheal, bronchus, and lung cancer}
 data(deaths2019)
 }
 \description{
-A dataset containing the number of deaths due to 9 causes in 6 regions for 2019.
+A dataset containing the number of Deaths due to 9 causes in 6 regions for 2019.
 }
 \examples{
 data(deaths2019)

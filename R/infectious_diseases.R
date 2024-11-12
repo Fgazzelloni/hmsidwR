@@ -1,6 +1,6 @@
 #' Dataset: Health Metrics Data - Infectious Diseases 1980-2021
 #'
-#' A dataset containing deaths rates, dalys, ylls, ylds, prevalence and incidence due to infectious diseases form 1980 to 2021 for Lesotho, Eswatini, Malawi, Central African Republic, and Zambia.
+#' A dataset containing Deaths rates, Disability-Adjusted Life Years (DALYs), Years of Life Lost (YLLs), and Years Lived with Disability (YLDs), Prevalence and Incidence due to Infectious Diseases form 1980 to 2021 for Lesotho, Eswatini, Malawi, Central African Republic, and Zambia.
 #'
 #' @format A dataframe with `r dim(infectious_diseases)[1]` rows and `r dim(infectious_diseases)[2]` variables:
 #'

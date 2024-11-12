@@ -13,7 +13,6 @@
 #' @importFrom stats coef
 #'
 #' @examples
-#' \dontrun{
 #' # Try different initial values for fitting the variogram models
 #' initial_values <- list(
 #'   list(psill = 1, range = 100000, nugget = 10),
@@ -33,7 +32,7 @@
 #'
 #' result$all_models
 #' result$best_model
-#' }
+#'
 kbfit <- function(response, formula, data,
                   models, initial_values) {
 

@@ -1,4 +1,4 @@
-#' Dataset: Health Metrics Data - Germany lungcancer deaths 2019
+#' Dataset: Health Metrics Data - Germany lungcancer Deaths 2019
 #'
 #' A dataset containing deaths number due to lungcancer in Germany 2019.
 #'

@@ -3,7 +3,7 @@
 \docType{data}
 \name{germany_lungc}
 \alias{germany_lungc}
-\title{Dataset: Health Metrics Data - Germany lungcancer deaths 2019}
+\title{Dataset: Health Metrics Data - Germany lungcancer Deaths 2019}
 \format{
 A dataframe with 48 rows and 8 variables:
 

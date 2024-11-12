@@ -8,7 +8,7 @@
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-A collection of data and functions used in the Health Metrics and the Spread of Infectious Diseases book. The book provides the tools for calculating the DALYs (YLLs+YLDs), and other important health metrics. It also shows the R code for modeling infectious diseases with machine learning. Finally, allows the user to understand how to visualize the results and making maps. Gazzelloni (2024) \doi{10.5281/zenodo.10818338}.
+A collection of datasets and supporting functions accompanying Health Metrics and the Spread of Infectious Diseases by Federica Gazzelloni (2024). This package provides data for health metrics calculations, including Disability-Adjusted Life Years (DALYs), Years of Life Lost (YLLs), and Years Lived with Disability (YLDs), as well as additional tools for analyzing and visualizing health data. Federica Gazzelloni (2024) \doi{10.5281/zenodo.10818338}.
 }
 \seealso{
 Useful links:

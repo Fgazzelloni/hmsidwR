@@ -8,9 +8,8 @@
 #' @export
 #'
 #' @examples
-#' \dontrun{
 #' string_search(path=".","\\.R$","metric")
-#' }
+#'
 #' # function string_search
 string_search <- function(path = ".", pattern, string) {
   # List all files matching the pattern in the specified path

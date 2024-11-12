@@ -3,7 +3,7 @@
 \docType{data}
 \name{gho_le_hale}
 \alias{gho_le_hale}
-\title{Dataset: Global Health Observatory (GHO) - Countries Life Expectancy and HALE 2000-2019}
+\title{Dataset: Global Health Observatory (GHO) - Countries Life Expectancy and Healthy Life Expectancy(HALE) 2000-2019}
 \format{
 A dataframe with 8784 rows and 6 variables:
 

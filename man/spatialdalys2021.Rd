@@ -3,7 +3,7 @@
 \docType{data}
 \name{spatialdalys2021}
 \alias{spatialdalys2021}
-\title{Health Metrics Data - DALYs Estimations for 204 countries in 2021 with spatial information.}
+\title{Health Metrics Data - Disability-Adjusted Life Years (DALYs) Estimations for 204 countries in 2021 with spatial information.}
 \format{
 A dataframe with 92862  rows and 7 variables:
 
@@ -32,7 +32,7 @@ USA,
 data(spatialdalys2021)
 }
 \description{
-Health Metrics Data - DALYs Estimations for 204 countries in 2021 with spatial information.
+Health Metrics Data - Disability-Adjusted Life Years (DALYs) Estimations for 204 countries in 2021 with spatial information.
 }
 \examples{
 data(spatialdalys2021)

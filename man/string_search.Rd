@@ -20,8 +20,7 @@ A character vector with the names of the files that contain the string
 Scan all folders and files to find a string: string_search
 }
 \examples{
-\dontrun{
 string_search(path=".","\\\\.R$","metric")
-}
+
 # function string_search
 }

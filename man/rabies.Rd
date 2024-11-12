@@ -26,6 +26,6 @@ The variables are as follows:
 rabies
 }
 \description{
-A subset of data from the IHME GBD on DALYs and Deaths due to All Causes and Rabies. Locations available are Global Region and Asia.
+A subset of data from the IHME GBD on Disability-Adjusted Life Years (DALYs) and Deaths due to All Causes and Rabies. Locations available are Global Region and Asia.
 }
 \keyword{datasets}

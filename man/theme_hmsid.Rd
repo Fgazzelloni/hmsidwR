@@ -32,7 +32,6 @@ A customized theme for a ggplot object.
 Custom ggplot2 theme function
 }
 \examples{
-\dontrun{
 library(ggplot2)
 dat <- data.frame(
   x = seq_along(1:5),
@@ -42,6 +41,5 @@ dat |>
   ggplot(aes(x = x, y = y)) +
   geom_line() +
   theme_hmsid()
-}
 
 }

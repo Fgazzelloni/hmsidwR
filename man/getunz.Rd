@@ -23,8 +23,7 @@ Use the url to download the data.
 Download, Unzip and Read Data: getunz
 }
 \examples{
-\dontrun{
 url <- "https://www.healthdata.org/.../some-file.zip"
 getunz(url)
-}
+
 }

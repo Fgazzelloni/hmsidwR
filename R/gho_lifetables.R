@@ -1,6 +1,6 @@
-#' Dataset: Global Health Observatory (GHO) life tables: WHO Global life table values
+#' Dataset: Global Health Observatory (GHO) Life tables: WHO Global Life table values
 #'
-#' A dataset containing the Global region life tables from 2000 to 2019.
+#' A dataset containing the Global region Life tables from 2000 to 2019.
 #'
 #' @format A dataframe with `r dim(gho_lifetables)[1]` rows and `r dim(gho_lifetables)[2]` variables:
 #'

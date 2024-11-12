@@ -24,7 +24,6 @@ A list with two elements: all_models and best_model
 Kriging Best Fit: kbfit - Fit variogram models and kriging models to spatial data and select the best model based on the metrics values
 }
 \examples{
-\dontrun{
 # Try different initial values for fitting the variogram models
 initial_values <- list(
   list(psill = 1, range = 100000, nugget = 10),
@@ -44,5 +43,5 @@ result <- kbfit(response = "response",
 
 result$all_models
 result$best_model
-}
+
 }

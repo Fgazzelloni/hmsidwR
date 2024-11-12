@@ -10,7 +10,6 @@
 #' @export
 #'
 #' @examples
-#' \dontrun{
 #' library(ggplot2)
 #' dat <- data.frame(
 #'   x = seq_along(1:5),
@@ -20,7 +19,6 @@
 #'   ggplot(aes(x = x, y = y)) +
 #'   geom_line() +
 #'   theme_hmsid()
-#' }
 #'
 theme_hmsid <- function(base_size, text_size,
                         subtitle_size, subtitle_margin,

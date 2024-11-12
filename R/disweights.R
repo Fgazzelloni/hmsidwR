@@ -1,7 +1,7 @@
 #' Dataset: Health Metrics Data - Disability Weights and Severity in 2019 and 2021
 #'
-#' A dataset containing the disability weights estimates, upper and lower values,
-#' and the severity level for Stroke, Tuberculosis, and HIV for all countries.
+#' A dataset containing the Disability Weights estimates, upper and lower values,
+#' and the Severity level for Stroke, Tuberculosis, and HIV for all countries.
 #'
 #' @format A dataframe with `r dim(disweights)[1]` rows and `r dim(disweights)[2]` variables:
 #'

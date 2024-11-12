@@ -25,6 +25,6 @@ The variables are as follows:
 id_affected_countries
 }
 \description{
-A dataset containing average values for deaths rates, dalys, ylls, ylds due to 37 infectious diseases form 1980 to 2012 for all countries.
+A dataset containing average values for deaths rates, Disability-Adjusted Life Years (DALYs), Years of Life Lost (YLLs), and Years Lived with Disability (YLDs) due to 37 infectious diseases form 1980 to 2012 for all countries.
 }
 \keyword{datasets}

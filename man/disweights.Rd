@@ -30,7 +30,7 @@ mean}
 disweights
 }
 \description{
-A dataset containing the disability weights estimates, upper and lower values,
-and the severity level for Stroke, Tuberculosis, and HIV for all countries.
+A dataset containing the Disability Weights estimates, upper and lower values,
+and the Severity level for Stroke, Tuberculosis, and HIV for all countries.
 }
 \keyword{datasets}

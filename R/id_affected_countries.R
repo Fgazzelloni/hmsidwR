@@ -1,6 +1,6 @@
 #' Dataset: Health Metrics Data - Infectious Diseases 1980-2021
 #'
-#' A dataset containing average values for deaths rates, dalys, ylls, ylds due to 37 infectious diseases form 1980 to 2012 for all countries.
+#' A dataset containing average values for deaths rates, Disability-Adjusted Life Years (DALYs), Years of Life Lost (YLLs), and Years Lived with Disability (YLDs) due to 37 infectious diseases form 1980 to 2012 for all countries.
 #'
 #' @format A dataframe with `r dim(id_affected_countries)[1]` rows and `r dim(id_affected_countries)[2]` variables:
 #'

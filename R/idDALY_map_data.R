@@ -1,5 +1,5 @@
 #' Dataset: Health Metrics Data - Simple Feature Collection
-#' Average DALYs per 100,000 population from 1990 to 2021
+#' Average Disability-Adjusted Life Years (DALYs) per 100,000 population from 1990 to 2021
 #'
 #' @format A Simple feature collection with `r dim(idDALY_map_data)[1]` rows and `r dim(idDALY_map_data)[2]` variables:
 #'

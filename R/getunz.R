@@ -13,10 +13,9 @@
 #' @export
 #'
 #' @examples
-#' \dontrun{
 #' url <- "https://www.healthdata.org/.../some-file.zip"
 #' getunz(url)
-#' }
+#'
 getunz <- function(url) {
   url <- url
   temp_dir <- tempdir()
@@ -25,8 +24,7 @@ getunz <- function(url) {
   utils::unzip(zip_file, exdir = temp_dir)
   csv_file <- list.files(temp_dir,
     pattern = "\\.csv$",
-    full.names = TRUE
-  )
+    full.names = TRUE)
   data <- purrr::map(csv_file, utils::read.csv)
   data
 }

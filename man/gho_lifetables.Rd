@@ -3,7 +3,7 @@
 \docType{data}
 \name{gho_lifetables}
 \alias{gho_lifetables}
-\title{Dataset: Global Health Observatory (GHO) life tables: WHO Global life table values}
+\title{Dataset: Global Health Observatory (GHO) Life tables: WHO Global Life table values}
 \format{
 A dataframe with 1995 rows and 5 variables:
 
@@ -30,6 +30,6 @@ nqx - probability of dying between ages x and x+n}
 gho_lifetables
 }
 \description{
-A dataset containing the Global region life tables from 2000 to 2019.
+A dataset containing the Global region Life tables from 2000 to 2019.
 }
 \keyword{datasets}

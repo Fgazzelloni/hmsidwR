@@ -1,6 +1,6 @@
 #' Dataset: Health Metrics Data - Number of Deaths Due to 9 Causes in 2019
 #'
-#' A dataset containing the number of deaths due to 9 causes in 6 regions for 2019.
+#' A dataset containing the number of Deaths due to 9 causes in 6 regions for 2019.
 #'
 #' @docType data
 #' @name deaths2019
