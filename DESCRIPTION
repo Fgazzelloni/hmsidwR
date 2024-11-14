@@ -13,6 +13,8 @@ Depends:
 Imports: 
     ggplot2,
     gstat,
+    httr,
+    jsonlite,
     purrr,
     showtext,
     sysfonts,
@@ -22,7 +24,6 @@ Suggests:
     dplyr,
     geomtextpath,
     ggthemes,
-    httr,
     janitor,
     knitr,
     lubridate,
