@@ -7,11 +7,19 @@
 [![R-CMD-check](https://github.com/Fgazzelloni/hmsidwR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Fgazzelloni/hmsidwR/actions/workflows/R-CMD-check.yaml)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/hmsidwR)](https://CRAN.R-project.org/package=hmsidwR)
+
 <!-- badges: end -->
 
 The goal of `{hmsidwR}` is to provide the set of data used in the
 **Health Metrics and the Spread of Infectious Diseases Machine Learning
-Applications and Spatial Modeling Analysis** book.
+Applications and Spatial Modelling Analysis** book. It also provides a
+set of functions to download data such as `getunz()`, and
+`gbd_get_data()` which allows the user to download data for the IHME
+SDG-API. With the `theme_hmsid()` is possible a customization of the
+ggplot2 theme, the `string_search()` function scan all folders and files
+to find a specific string. And, the `kbfit()` function fits a variogram
+models and then a set of kriging models to spatial data to select the
+best model based on metrics.
 
 ## Installation
 

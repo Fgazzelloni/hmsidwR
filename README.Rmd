@@ -16,12 +16,12 @@ options(rmarkdown.html_vignette.check_title = FALSE)
 # hmsidwR - Health Metrics and the Spread of Infectious Diseases
 
 <!-- badges: start -->
-[![DOI](https://zenodo.org/badge/768163778.svg)](https://zenodo.org/badge/latestdoi/768163778)
-[![R-CMD-check](https://github.com/Fgazzelloni/hmsidwR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Fgazzelloni/hmsidwR/actions/workflows/R-CMD-check.yaml)
-[![CRAN status](https://www.r-pkg.org/badges/version/hmsidwR)](https://CRAN.R-project.org/package=hmsidwR)
+
+[![DOI](https://zenodo.org/badge/768163778.svg)](https://zenodo.org/badge/latestdoi/768163778) [![R-CMD-check](https://github.com/Fgazzelloni/hmsidwR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Fgazzelloni/hmsidwR/actions/workflows/R-CMD-check.yaml) [![CRAN status](https://www.r-pkg.org/badges/version/hmsidwR)](https://CRAN.R-project.org/package=hmsidwR)
+
 <!-- badges: end -->
 
-The goal of `{hmsidwR}` is to provide the set of data used in the **Health Metrics and the Spread of Infectious Diseases Machine Learning Applications and Spatial Modeling Analysis** book.
+The goal of `{hmsidwR}` is to provide the set of data used in the **Health Metrics and the Spread of Infectious Diseases Machine Learning Applications and Spatial Modelling Analysis** book. It also provides a set of functions to download data such as `getunz()`, and `gbd_get_data()` which allows the user to download data for the IHME SDG-API. With the `theme_hmsid()` is possible a customization of the ggplot2 theme, the `string_search()` function scan all folders and files to find a specific string. And, the `kbfit()` function fits a variogram models and then a set of kriging models to spatial data to select the best model based on metrics.
 
 ## Installation
 
@@ -47,8 +47,6 @@ data(sdi90_19)
 head(subset(sdi90_19, location == "Global"))
 ```
 
-
-
 ```{r example1}
 sdi_avg <- sdi90_19 |>
   group_by(location) |>
@@ -57,7 +55,6 @@ sdi_avg <- sdi90_19 |>
 head(sdi_avg)
 ```
 
-
 ```{r example2}
 sdi90_19 |>
   filter(location %in% c("Global", "Italy", "France", "Germany")) |>
@@ -65,4 +62,3 @@ sdi90_19 |>
   reframe(sdi_avg = round(mean(value), 3)) |>
   head()
 ```
-
