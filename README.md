@@ -14,7 +14,10 @@ The goal of `{hmsidwR}` is to provide the set of data used in the
 **Health Metrics and the Spread of Infectious Diseases Machine Learning
 Applications and Spatial Modelling Analysis** book. 
 
-Link to the online version of the Book: <https://fgazzelloni.quarto.pub/hmsidr/>
+Links to the online version of the Book: 
+
+- <https://fgazzelloni.quarto.pub/hmsidr/>
+- <https://bookdown.org/fede_gazzelloni/hmsidR/>
 
 It also provides a set of functions to download data such as `getunz()`, and
 `gbd_get_data()` which allows the user to download data for the IHME
