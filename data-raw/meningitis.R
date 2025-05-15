@@ -11,7 +11,8 @@ meningitis <- meningitis_raw %>%
          deaths = Deaths, dalys = DALYs) %>%
   full_join(sev, by = c("location", "year"))%>%
   filter(!is.na(dalys)) %>%
-  rename(pm25 = `Particulate matter pollution`)
+  rename(pm25 = `Particulate matter pollution`,
+         smoking = Smoking)
 
 usethis::use_data(meningitis,
                   compress = "xz",
