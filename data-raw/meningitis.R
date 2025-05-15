@@ -8,9 +8,10 @@ sev <- readRDS("~/Documents/R/AAA_packages/hmsidwR_container/extra-files/data/ih
 meningitis <- meningitis_raw %>%
   arrange(year) %>%
   select(year, location = location_name,
-         Deaths, DALYs) %>%
+         deaths = Deaths, dalys = DALYs) %>%
   full_join(sev, by = c("location", "year"))%>%
-  filter(!is.na(DALYs))
+  filter(!is.na(dalys)) %>%
+  rename(pm25 = `Particulate matter pollution`)
 
 usethis::use_data(meningitis,
                   compress = "xz",

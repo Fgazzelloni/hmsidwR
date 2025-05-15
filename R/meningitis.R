@@ -13,10 +13,10 @@
 #' \describe{
 #'   \item{year}{character, metric name}
 #'   \item{location}{character, country}
-#'   \item{Deaths}{numeric, Rates}
-#'   \item{DALYs}{numeric, Rates}
-#'   \item{Smoking}{numeric, Rates}
-#'   \item{Particulate matter pollution}{PM2.5, numeric, Rates}
+#'   \item{deaths}{numeric, Rates}
+#'   \item{dalys}{numeric, Rates}
+#'   \item{smoking}{numeric, Rates}
+#'   \item{pm25}{numeric, Rates}
 #' }
 #' @source <https://vizhub.healthdata.org/gbd-results/>
 "meningitis"
